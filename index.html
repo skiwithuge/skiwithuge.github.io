@@ -10,8 +10,8 @@
 
   <link rel="stylesheet" href="css/font-awesome.min.css">
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script type="text/javascript" src="js/timeliner.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="js/actions.js"></script>
 </head>
   <body>
 
@@ -39,14 +39,19 @@
       </section>
     </section>
 
+
+
+
     <section class="container grid-960">
       <br>
+
       <header class="text-center"><h1>Timeline</h1></header>
+
       <section class="columns">
         <div class="docs-content column col-3 col-sm-3">
         </div>
         <div class="docs-content column col-6 col-sm-6">
-
+          <br>
           <div class="timeline">
 
             <div class="timeline-item">
@@ -63,186 +68,189 @@
               </div>
             </div>
 
-            <div class="timeline-item">
-              <div class="timeline-left">
-                <a class="timeline-icon icon-lg">
-                </a>
-              </div>
-              <div class="timeline-content">
-                <div class="tile">
-                  <div class="tile-content">
-                    <p class="tile-subtitle">1997</p>
-                    <p class="tile-title">First Computer</p>
+            <div id="timelineopen" class="hidden">
+              <!--<div class="timeline-item">
+                <div class="timeline-left">
+                  <a class="timeline-icon icon-lg">
+                  </a>
+                </div>
+                <div class="timeline-content">
+                  <div class="tile">
+                    <div class="tile-content">
+                      <p class="tile-subtitle">1997</p>
+                      <p class="tile-title">First Computer</p>
+                    </div>
                   </div>
                 </div>
-              </div>
-            </div>
+              </div>-->
 
-            <div class="timeline-item">
-              <div class="timeline-left">
-                <a class="timeline-icon icon-lg">
-                </a>
-              </div>
-              <div class="timeline-content">
-                <div class="tile">
-                  <div class="tile-content">
-                    <p class="tile-subtitle">2000</p>
-                    <p class="tile-title">First Web Developement Book</p>
+              <div class="timeline-item">
+                <div class="timeline-left">
+                  <a class="timeline-icon icon-lg">
+                  </a>
+                </div>
+                <div class="timeline-content">
+                  <div class="tile">
+                    <div class="tile-content">
+                      <p class="tile-subtitle">2000</p>
+                      <p class="tile-title">First Web Developement Book</p>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
 
-            <div class="timeline-item">
-              <div class="timeline-left">
-                <a class="timeline-icon icon-lg">
-                </a>
-              </div>
-              <div class="timeline-content">
-                <div class="tile">
-                  <div class="tile-content">
-                    <p class="tile-subtitle">2002</p>
-                    <p class="tile-title">First ADSL contract</p>
+              <!--<div class="timeline-item">
+                <div class="timeline-left">
+                  <a class="timeline-icon icon-lg">
+                  </a>
+                </div>
+                <div class="timeline-content">
+                  <div class="tile">
+                    <div class="tile-content">
+                      <p class="tile-subtitle">2002</p>
+                      <p class="tile-title">First ADSL contract</p>
+                    </div>
                   </div>
                 </div>
-              </div>
-            </div>
+              </div>-->
 
-            <div class="timeline-item">
-              <div class="timeline-left">
-                <a class="timeline-icon icon-lg">
-                </a>
-              </div>
-              <div class="timeline-content">
-                <div class="tile">
-                  <div class="tile-content">
-                    <p class="tile-subtitle">2005</p>
-                    <p class="tile-title">First Programming book (PHP)</p>
+              <div class="timeline-item">
+                <div class="timeline-left">
+                  <a class="timeline-icon icon-lg">
+                  </a>
+                </div>
+                <div class="timeline-content">
+                  <div class="tile">
+                    <div class="tile-content">
+                      <p class="tile-subtitle">2005</p>
+                      <p class="tile-title">First Programming book (PHP)</p>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
 
-            <div class="timeline-item">
-              <div class="timeline-left">
-                <a class="timeline-icon icon-lg">
-                </a>
-              </div>
-              <div class="timeline-content">
-                <div class="tile">
-                  <div class="tile-content">
-                    <p class="tile-subtitle">2006</p>
-                    <p class="tile-title">First web sites experiments (HTML, CSS, PHP)</p>
+              <div class="timeline-item">
+                <div class="timeline-left">
+                  <a class="timeline-icon icon-lg">
+                  </a>
+                </div>
+                <div class="timeline-content">
+                  <div class="tile">
+                    <div class="tile-content">
+                      <p class="tile-subtitle">2006</p>
+                      <p class="tile-title">First web sites experiments (HTML, CSS, PHP)</p>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
 
-            <div class="timeline-item">
-              <div class="timeline-left">
-                <a class="timeline-icon icon-lg">
-                </a>
-              </div>
-              <div class="timeline-content">
-                <div class="tile">
-                  <div class="tile-content">
-                    <p class="tile-subtitle">2007</p>
-                    <p class="tile-title">First web app</p>
+              <div class="timeline-item">
+                <div class="timeline-left">
+                  <a class="timeline-icon icon-lg">
+                  </a>
+                </div>
+                <div class="timeline-content">
+                  <div class="tile">
+                    <div class="tile-content">
+                      <p class="tile-subtitle">2007</p>
+                      <p class="tile-title">First web app</p>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
 
-            <div class="timeline-item">
-              <div class="timeline-left">
-                <a class="timeline-icon icon-lg">
-                </a>
-              </div>
-              <div class="timeline-content">
-                <div class="tile">
-                  <div class="tile-content">
-                    <p class="tile-subtitle">2009</p>
-                    <p class="tile-title">Experiments in mShell (Symbian)</p>
-                    <p class="tile-title">Start bachelor's degree in Computer Engineering (Universita' di Palermo, Palermo - Italy)</p>
+              <div class="timeline-item">
+                <div class="timeline-left">
+                  <a class="timeline-icon icon-lg">
+                  </a>
+                </div>
+                <div class="timeline-content">
+                  <div class="tile">
+                    <div class="tile-content">
+                      <p class="tile-subtitle">2009</p>
+                      <p class="tile-title">Experiments in mShell (Symbian)</p>
+                      <p class="tile-title">Start bachelor's degree in Computer Engineering (Universita' di Palermo, Palermo - Italy)</p>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
 
-            <div class="timeline-item">
-              <div class="timeline-left">
-                <a class="timeline-icon icon-lg">
-                </a>
-              </div>
-              <div class="timeline-content">
-                <div class="tile">
-                  <div class="tile-content">
-                    <p class="tile-subtitle">2010</p>
-                    <p class="tile-title">Other Apps in mShell</p>
+              <div class="timeline-item">
+                <div class="timeline-left">
+                  <a class="timeline-icon icon-lg">
+                  </a>
+                </div>
+                <div class="timeline-content">
+                  <div class="tile">
+                    <div class="tile-content">
+                      <p class="tile-subtitle">2010</p>
+                      <p class="tile-title">Other Apps in mShell</p>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
 
-            <div class="timeline-item">
-              <div class="timeline-left">
-                <a class="timeline-icon icon-lg">
-                </a>
-              </div>
-              <div class="timeline-content">
-                <div class="tile">
-                  <div class="tile-content">
-                    <p class="tile-subtitle">2011</p>
-                    <p class="tile-title">Start a cooperation agreement to build a University portal</p>
+              <div class="timeline-item">
+                <div class="timeline-left">
+                  <a class="timeline-icon icon-lg">
+                  </a>
+                </div>
+                <div class="timeline-content">
+                  <div class="tile">
+                    <div class="tile-content">
+                      <p class="tile-subtitle">2011</p>
+                      <p class="tile-title">Start a cooperation agreement to build a University portal</p>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
 
-            <div class="timeline-item">
-              <div class="timeline-left">
-                <a class="timeline-icon icon-lg">
-                </a>
-              </div>
-              <div class="timeline-content">
-                <div class="tile">
-                  <div class="tile-content">
-                    <p class="tile-subtitle">2012</p>
-                    <p class="tile-title">Built other web experiments and an Online Newspaper Web Site</p>
+              <div class="timeline-item">
+                <div class="timeline-left">
+                  <a class="timeline-icon icon-lg">
+                  </a>
+                </div>
+                <div class="timeline-content">
+                  <div class="tile">
+                    <div class="tile-content">
+                      <p class="tile-subtitle">2012</p>
+                      <p class="tile-title">Built other web experiments and an Online Newspaper Web Site</p>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
 
-            <div class="timeline-item">
-              <div class="timeline-left">
-                <a class="timeline-icon icon-lg">
-                </a>
-              </div>
-              <div class="timeline-content">
-                <div class="tile">
-                  <div class="tile-content">
-                    <p class="tile-subtitle">2013</p>
-                    <p class="tile-title">Bachelor's Degree Graduation</p>
-                    <p class="tile-title">Start Master's Degree in Computer Engineering (Politecnico di Torino, Turin - Italy)</p>
+              <div class="timeline-item">
+                <div class="timeline-left">
+                  <a class="timeline-icon icon-lg">
+                  </a>
+                </div>
+                <div class="timeline-content">
+                  <div class="tile">
+                    <div class="tile-content">
+                      <p class="tile-subtitle">2013</p>
+                      <p class="tile-title">Bachelor's Degree Graduation</p>
+                      <p class="tile-title">Start Master's Degree in Computer Engineering (Politecnico di Torino, Turin - Italy)</p>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
 
-            <div class="timeline-item">
-              <div class="timeline-left">
-                <a class="timeline-icon icon-lg">
-                </a>
-              </div>
-              <div class="timeline-content">
-                <div class="tile">
-                  <div class="tile-content">
-                    <p class="tile-subtitle">2016</p>
-                    <p class="tile-title">Masters's Degree Graduation</p>
+              <div class="timeline-item">
+                <div class="timeline-left">
+                  <a class="timeline-icon icon-lg">
+                  </a>
+                </div>
+                <div class="timeline-content">
+                  <div class="tile">
+                    <div class="tile-content">
+                      <p class="tile-subtitle">2016</p>
+                      <p class="tile-title">Masters's Degree Graduation</p>
+                    </div>
                   </div>
                 </div>
               </div>
+
             </div>
 
             <div class="timeline-item">
@@ -265,14 +273,53 @@
       </section>
     </section>
 
+    <section class="columns">
+      <div class="docs-content column col-9 col-sm-9"></div>
+      <div class="docs-content column col-3 col-sm-3">
+        <button class="btn btn-action circle togglebtn" onclick="togglebtn('timelineopen');"><i class="icon icon-arrow-down"></i></button>
+        <button class="btn btn-action circle hidden togglebtn" onclick="togglebtn('timelineopen');"><i class="icon icon-arrow-up"></i></button>
+      </div>
+    </section>
     <div class="divider"></div>
 
-    <section class="container">
+    <section class="container grid-960">
+
+      <header class="text-center"><h1>Projects</h1></header>
+
       <section class="columns">
         <div class="docs-content column col-3 col-sm-3">
         </div>
         <div class="docs-content column col-6 col-sm-6">
-          <header class="text-center"><h1>Projects</h1></header>
+          <section class="notes">
+            <div class="item">
+              <h5>Bioinformatics Testbench</h5>
+            </div>
+            <p> - C++, Python, Bash				 04/2016-10/2016
+              Mobile application for students - Android, Parse.com			 07/2015-09/2015
+              Fusion Gene Analysis - Bash, Python, BLAST, MegaBlast, BowTie	 06/2015-07/2015
+              Airport Management - Java, XML, WSDL 1.1					   02/2015
+              Online Auctions - PHP, jQuery, Javascript, Mysql					   06/2014
+              TSP problem - Java									   01/2014
+              WorldTour Interface - Java, Jsp, jQuery, GMaps API			 07/2013-09/2013
+              Online Library - Java, MySQL							   07/2012
+              SmsViewer, oCellManager - mShell (Symbian OS)			           2009-2010
+              PHP Download System - PHP, MySQL						        2007
+            </p>
+          </section>
+        </div>
+      </section>
+    </section>
+
+    <div class="divider"></div>
+
+    <section class="container grid-960">
+
+      <header class="text-center"><h1>Skills</h1></header>
+
+      <section class="columns">
+        <div class="docs-content column col-3 col-sm-3">
+        </div>
+        <div class="docs-content column col-6 col-sm-6">
           <section class="notes">
             <p>sample text</p>
           </section>
@@ -282,12 +329,14 @@
 
     <div class="divider"></div>
 
-    <section class="container">
+    <section class="container grid-960">
+
+      <header class="text-center"><h1>Interests and Hobbies</h1></header>
+
       <section class="columns">
         <div class="docs-content column col-3 col-sm-3">
         </div>
         <div class="docs-content column col-6 col-sm-6">
-          <header class="text-center"><h1>Skills</h1></header>
           <section class="notes">
             <p>sample text</p>
           </section>
@@ -297,27 +346,14 @@
 
     <div class="divider"></div>
 
-    <section class="container">
+    <section class="container grid-960">
+
+      <header class="text-center"><h1>Contact Me</h1></header>
+
       <section class="columns">
         <div class="docs-content column col-3 col-sm-3">
         </div>
         <div class="docs-content column col-6 col-sm-6">
-          <header class="text-center"><h1>Interests and Hobbies</h1></header>
-          <section class="notes">
-            <p>sample text</p>
-          </section>
-        </div>
-      </section>
-    </section>
-
-    <div class="divider"></div>
-
-    <section class="container">
-      <section class="columns">
-        <div class="docs-content column col-3 col-sm-3">
-        </div>
-        <div class="docs-content column col-6 col-sm-6">
-          <header class="text-center"><h1>Contact Me</h1></header>
           <section class="notes text-center">
             <h2>
               <i class="fa fa-facebook" aria-hidden="true"></i>
