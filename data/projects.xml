@@ -1,0 +1,23 @@
+<?xml version='1.0' standalone='yes'?>
+<projects>
+    <project>
+        <name>Bioinformatics Testbench</name>
+        <startdate>04/2016</startdate>
+        <enddate>10/2016</enddate>
+        <languages>
+            <language>C++</language>
+            <language>Python</language>
+            <language>Bash</language>
+        </languages>
+        <description>
+            Developement of a testbench to analyze the quality of pairwise alignments. In detail the work produces the creation of a tool to visualize the scoring matrices and the creation of a tool to allow the evaluation of the different scoring schemes.
+        </description>
+        <photos>
+            <photo>alex.png</photo>
+            <photo>aliBench.png</photo>
+            <photo>aliBenchScheme.png</photo>
+            <photo>ntcoffee.png</photo>
+            <photo>tcoffeeScheme.png</photo>
+        </photos>
+    </project>
+</projects>

@@ -37,6 +37,7 @@
         <br>
         <div class="timeline">
           <?php printTimelineNode('1990',['Born'],''); ?>
+
           <div id="timelineopen" class="hidden">
             <?php
             printTimelineNode('2000',['First Web Developement Book']);
@@ -77,6 +78,11 @@
           </div>
           <div class="docs-content column col-8 col-sm-8">
               <section class="notes">
+                  <?php
+                    $projects = simplexml_load_file('data/projects.xml');
+                    //$projects = new SimpleXMLElement($xml);
+                    echo $projects->project[0]->description;
+                  ?>
 
               </section>
           </div>
