@@ -10,14 +10,33 @@
             <language>Bash</language>
         </languages>
         <description>
-            Developement of a testbench to analyze the quality of pairwise alignments. In detail the work produces the creation of a tool to visualize the scoring matrices and the creation of a tool to allow the evaluation of the different scoring schemes.
+            Developement of a testbench to analyze the quality of pairwise alignments. In detail the work produced the creation of a tool to visualize the scoring matrices and the creation of a tool to allow the evaluation of the different scoring schemes.
         </description>
         <photos>
             <photo>alex.png</photo>
-            <photo>aliBench.png</photo>
             <photo>aliBenchScheme.png</photo>
             <photo>ntcoffee.png</photo>
             <photo>tcoffeeScheme.png</photo>
+        </photos>
+    </project>
+
+    <project>
+        <name>Mobile application for students</name>
+        <startdate>07/2015</startdate>
+        <enddate>09/2015</enddate>
+        <languages>
+            <language>Android</language>
+            <language>Parse.com</language>
+        </languages>
+        <description>Several Android apps developed:
+            Lecture TimeTable - Android App for the management of the lectures timetable
+            JobPlacement - Android App to search for a job
+            IntectiveMap - Android App to search for houses and apartments
+            StudentLife - Android App that includes all the services offered the other apps and that allows the sale and the
+            purchase of items
+        </description>
+        <photos>
+
         </photos>
     </project>
 </projects>

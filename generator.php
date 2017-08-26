@@ -1,4 +1,7 @@
-<?php include("functions.php") ?>
+<?php
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+include("functions.php") ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -81,7 +84,11 @@
                   <?php
                     $projects = simplexml_load_file('data/projects.xml');
                     //$projects = new SimpleXMLElement($xml);
-                    echo $projects->project[0]->description;
+                    //echo $projects->project[0]->description;
+                    foreach($projects as $pj) {
+                      generateProject($pj);
+                      echo "\n";
+                    }
                   ?>
 
               </section>
@@ -129,6 +136,6 @@
     </section>
 
 
-
+  </section>
   </body>
 </html>

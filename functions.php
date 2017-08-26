@@ -50,68 +50,58 @@ NODE;
 NODE;
 }
 
-function generateCarousel(){
+function generateCarousel($photos){
   echo "<div class=\"carousel\">";
+  for($i=0;$i<count($photos);$i++){
+    $normalizedCount = $i + 1;
+    echo "<input type=\"radio\" id=\"slide-$normalizedCount\" name=\"carousel-radio\" hidden=\"\" class=\"carousel-locator\"";
+    if($i == 0)
+      echo "checked=\"\"";
+    echo ">";
+  }
+  echo "<div class=\"carousel-container\">";
+  for($i=0;$i<count($photos);$i++){
+    $normalizedCount = $i + 1;
+    $next = $normalizedCount + 1;
+    if($next>count($photos))
+      $next = 1;
+    $prev = $normalizedCount - 1;
+    if($prev < 1)
+      $prev = count($photos);
 
+    echo "<figure class=\"carousel-item\">";
+    echo "<label class=\"item-prev btn btn-action btn-lg\" for=\"slide-$prev\">";
+    echo "<i class=\"icon icon-arrow-left\"></i>";
+    echo "</label>";
+    echo "<label class=\"item-next btn btn-action btn-lg\" for=\"slide-$next\">";
+    echo "<i class=\"icon icon-arrow-right\"></i>";
+    echo "</label>";
+    echo "<img src=\"img/$photos[$i]\" class=\"img-responsive rounded\" alt=\"AlEx\">";
+    echo "</figure>";
+  }
+  echo "<div class=\"carousel-nav\">";
+  for($i=0;$i<count($photos);$i++) {
+    $normalizedCount = $i + 1;
+    echo "<label class=\"nav-item text-hide hand\" for=\"slide-$normalizedCount\">$normalizedCount</label>";
+  }
   echo "</div>";
-  echo <<< CAR
-                <div class="carousel">
-                <input type="radio" id="slide-1" name="carousel-radio" hidden="" class="carousel-locator" checked="">
-                <input type="radio" id="slide-2" name="carousel-radio" hidden="" class="carousel-locator">
-                <input type="radio" id="slide-3" name="carousel-radio" hidden="" class="carousel-locator">
-                <input type="radio" id="slide-4" name="carousel-radio" hidden="" class="carousel-locator">
+  echo "</div>";
+  echo "</div>";
+}
 
-                <div class="carousel-container">
-
-                  <figure class="carousel-item">
-                    <label class="item-prev btn btn-action btn-lg" for="slide-2">
-                      <i class="icon icon-arrow-left"></i>
-                    </label>
-                    <label class="item-next btn btn-action btn-lg" for="slide-2">
-                      <i class="icon icon-arrow-right"></i>
-                    </label>
-                    <img src="img/alex.png" class="img-responsive rounded" alt="AlEx">
-                  </figure>
-
-                  <figure class="carousel-item">
-                    <label class="item-prev btn btn-action btn-lg" for="slide-1">
-                      <i class="icon icon-arrow-left"></i>
-                    </label>
-                    <label class="item-next btn btn-action btn-lg" for="slide-3">
-                      <i class="icon icon-arrow-right"></i>
-                    </label>
-                    <img src="img/aliBenchScheme.png" class="img-responsive rounded" alt="aliBench Scheme">
-                  </figure>
-
-                  <figure class="carousel-item">
-                    <label class="item-prev btn btn-action btn-lg" for="slide-2">
-                      <i class="icon icon-arrow-left"></i>
-                    </label>
-                    <label class="item-next btn btn-action btn-lg" for="slide-4">
-                      <i class="icon icon-arrow-right"></i>
-                    </label>
-                    <img src="img/aliBench.png" class="img-responsive rounded" alt="aliBench">
-                  </figure>
-
-                  <figure class="carousel-item">
-                    <label class="item-prev btn btn-action btn-lg" for="slide-3">
-                      <i class="icon icon-arrow-left"></i>
-                    </label>
-                    <label class="item-next btn btn-action btn-lg" for="slide-1">
-                      <i class="icon icon-arrow-right"></i>
-                    </label>
-                    <img src="img/tcoffeeScheme.png" class="img-responsive rounded" alt="ntcoffee Scheme">
-                  </figure>
-
-
-                <div class="carousel-nav">
-                  <label class="nav-item text-hide hand" for="slide-1">1</label>
-                  <label class="nav-item text-hide hand" for="slide-2">2</label>
-                  <label class="nav-item text-hide hand" for="slide-3">3</label>
-                  <label class="nav-item text-hide hand" for="slide-4">4</label>
-                </div>
-              </div>
-            </div>
-CAR;
+function generateProject($project){
+  echo "<div class=\"item\">";
+  echo "<h4>$project->name</h4>";
+  echo "<h5>$project->startdate - $project->enddate</h5>";
+  echo "<mark>";
+  foreach($project->languages->language as $lg){
+    echo "$lg";
+    if($lg == end($project->languages->language))
+      break;
+    echo " - ";
+  }
+  echo "</mark>";
+  generateCarousel($project->photos->photo);
+  echo "</div>";
 }
 ?>
