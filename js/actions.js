@@ -1,5 +1,5 @@
 function togglebtn(divId) {
-    $('.togglebtn').toggle();
+    $("." + divId).toggle();
     $("#" + divId).toggle('slow');
     //$('#timelineopen').attr('class', 'show');;
 };

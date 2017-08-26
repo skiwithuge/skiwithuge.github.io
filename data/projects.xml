@@ -28,15 +28,113 @@
             <language>Android</language>
             <language>Parse.com</language>
         </languages>
-        <description>Several Android apps developed:
-            Lecture TimeTable - Android App for the management of the lectures timetable
-            JobPlacement - Android App to search for a job
-            IntectiveMap - Android App to search for houses and apartments
-            StudentLife - Android App that includes all the services offered the other apps and that allows the sale and the
-            purchase of items
+        <description>
+            <![CDATA[
+                Several Android apps developed:<br>
+                <strong>Lecture TimeTable</strong> - Android App for the management of the lectures timetable<br>
+                <strong>JobPlacement</strong> - Android App to search for a job<br>
+                <strong>IntectiveMap</strong> - Android App to search for houses and apartments<br>
+                <strong>StudentLife</strong> - Android App that includes all the services offered the other apps and that allows the sale and the
+                purchase of items<br>
+            ]]>
         </description>
         <photos>
 
         </photos>
+    </project>
+
+    <project>
+        <name>Fusion Gene Analysis</name>
+        <startdate>06/2015</startdate>
+        <enddate>07/2015</enddate>
+        <languages>
+            <language>Bash</language>
+            <language>Python</language>
+            <language>BLAST</language>
+            <language>MegaBlast</language>
+            <language>BowTie2</language>
+        </languages>
+        <description></description>
+        <photos></photos>
+    </project>
+    <project>
+        <name>Airport Management</name>
+        <startdate>02/2015</startdate>
+        <enddate></enddate>
+        <languages>
+            <language>Java</language>
+            <language>XML</language>
+            <language>WSDL 1.1</language>
+        </languages>
+        <description></description>
+        <photos></photos>
+    </project>
+    <project>
+        <name>Online Auctions</name>
+        <startdate>06/2014</startdate>
+        <enddate></enddate>
+        <languages>
+            <language>PHP</language>
+            <language>jQuery</language>
+            <language>Javascript</language>
+            <language>Mysql</language>
+        </languages>
+        <description></description>
+        <photos></photos>
+    </project>
+    <project>
+        <name>TSP problem</name>
+        <startdate>01/2014</startdate>
+        <enddate></enddate>
+        <languages>
+            <language>Java</language>
+        </languages>
+        <description></description>
+        <photos></photos>
+    </project>
+    <project>
+        <name>WorldTour Interface</name>
+        <startdate>07/2013</startdate>
+        <enddate>09/2013</enddate>
+        <languages>
+            <language>Java</language>
+            <language>Jsp</language>
+            <language>jQuery</language>
+            <language>GMaps API</language>
+        </languages>
+        <description></description>
+        <photos></photos>
+    </project>
+    <project>
+        <name>Online Library</name>
+        <startdate>07/2012</startdate>
+        <enddate></enddate>
+        <languages>
+            <language>Java</language>
+            <language>MySQL</language>
+        </languages>
+        <description></description>
+        <photos></photos>
+    </project>
+    <project>
+        <name>SmsViewer, oCellManager</name>
+        <startdate>2009</startdate>
+        <enddate>2010</enddate>
+        <languages>
+            <language>mShell (Symbian OS)</language>
+        </languages>
+        <description></description>
+        <photos></photos>
+    </project>
+    <project>
+        <name>PHP Download System - PHP, MySQL</name>
+        <startdate>2007</startdate>
+        <enddate></enddate>
+        <languages>
+            <language>PHP</language>
+            <language>MySQL</language>
+        </languages>
+        <description></description>
+        <photos></photos>
     </project>
 </projects>

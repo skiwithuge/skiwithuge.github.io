@@ -90,18 +90,37 @@ function generateCarousel($photos){
 }
 
 function generateProject($project){
-  echo "<div class=\"item\">";
-  echo "<h4>$project->name</h4>";
-  echo "<h5>$project->startdate - $project->enddate</h5>";
-  echo "<mark>";
-  foreach($project->languages->language as $lg){
-    echo "$lg";
-    if($lg == end($project->languages->language))
-      break;
-    echo " - ";
-  }
-  echo "</mark>";
-  generateCarousel($project->photos->photo);
+  $divcode = hash('md5', $project->name);
+  echo "<div class=\"docs-content column col-5 col-sm-5\">";
+    echo "<section class=\"notes\">";
+      echo "<div class=\"card\">";
+        echo "<div class=\"card-header\">";
+          echo "<h4>$project->name";
+            echo "
+              <button class=\"btn btn-action circle btn-primary $divcode\" onclick=\"togglebtn('$divcode');\"><i class=\"icon icon-arrow-down\"></i></button>
+              <button class=\"btn btn-action circle hidden $divcode\" onclick=\"togglebtn('$divcode');\"><i class=\"icon icon-arrow-up\"></i></button>
+            ";
+          echo "</h4>";
+          echo "<h5>$project->startdate - $project->enddate</h5>";
+          echo "<mark>";
+          foreach($project->languages->language as $lg){
+            echo "$lg";
+            if($lg == end($project->languages->language))
+              break;
+            echo " - ";
+          }
+          echo "</mark>";
+        echo "</div>";
+
+        echo "<div id=\"$divcode\" class=\"card-body hidden\">";
+          echo "<p>$project->description</p>";
+        echo "</div>";
+        echo "<div class=\"card-footer\">";
+          if(count($project->photos->photo) != 0)
+            generateCarousel($project->photos->photo);
+        echo "</div>";
+      echo "</div>";
+    echo "</section>";
   echo "</div>";
 }
 ?>

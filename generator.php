@@ -65,8 +65,8 @@ include("functions.php") ?>
     <section class="columns">
       <div class="docs-content column col-9 col-sm-9"></div>
       <div class="docs-content column col-3 col-sm-3">
-          <button class="btn btn-action circle btn-primary togglebtn" onclick="togglebtn('timelineopen');"><i class="icon icon-arrow-down"></i></button>
-          <button class="btn btn-action circle hidden togglebtn" onclick="togglebtn('timelineopen');"><i class="icon icon-arrow-up"></i></button>
+          <button class="btn btn-action circle btn-primary timelineopen" onclick="togglebtn('timelineopen');"><i class="icon icon-arrow-down"></i></button>
+          <button class="btn btn-action circle hidden timelineopen" onclick="togglebtn('timelineopen');"><i class="icon icon-arrow-up"></i></button>
       </div>
     </section>
 
@@ -77,22 +77,18 @@ include("functions.php") ?>
       <header class="text-center"><h1>Projects</h1></header>
 
       <section class="columns">
-          <div class="docs-content column col-2 col-sm-2">
-          </div>
-          <div class="docs-content column col-8 col-sm-8">
-              <section class="notes">
+
                   <?php
                     $projects = simplexml_load_file('data/projects.xml');
-                    //$projects = new SimpleXMLElement($xml);
-                    //echo $projects->project[0]->description;
-                    foreach($projects as $pj) {
-                      generateProject($pj);
-                      echo "\n";
+                    //foreach($projects as $pj) {
+                    //  generateProject($pj);
+                    //}
+                    for($i=0;$i<count($projects);$i++){
+                      generateProject($projects->project[$i]);
+                      if($i%2 == 0)
+                          echo "<div class=\"docs-content column col-2 col-sm-2\"></div>";
                     }
                   ?>
-
-              </section>
-          </div>
       </section>
     </section>
 
