@@ -76,7 +76,7 @@ function generateCarousel($photos){
     echo "<label class=\"item-next btn btn-action btn-lg\" for=\"slide-$next\">";
     echo "<i class=\"icon icon-arrow-right\"></i>";
     echo "</label>";
-    echo "<img src=\"img/$photos[$i]\" class=\"img-responsive rounded\" alt=\"AlEx\">";
+    echo "<img src=\"img/$photos[$i]\" class=\"img-responsive rounded zoom\" alt=\"AlEx\">";
     echo "</figure>";
   }
   echo "<div class=\"carousel-nav\">";
@@ -95,11 +95,13 @@ function generateProject($project){
     echo "<section class=\"notes\">";
       echo "<div class=\"card\">";
         echo "<div class=\"card-header\">";
-          echo "<h4>$project->name";
+          echo "<h7>";
             echo "
-              <button class=\"btn btn-action circle btn-primary $divcode\" onclick=\"togglebtn('$divcode');\"><i class=\"icon icon-arrow-down\"></i></button>
-              <button class=\"btn btn-action circle hidden $divcode\" onclick=\"togglebtn('$divcode');\"><i class=\"icon icon-arrow-up\"></i></button>
-            ";
+                <button class=\"btn btn-action btn-sm circle btn-primary float-right $divcode\" onclick=\"togglebtn('$divcode');\"><i class=\"icon icon-arrow-down\"></i></button>
+                <button class=\"btn btn-action btn-sm circle hidden float-right $divcode\" onclick=\"togglebtn('$divcode');\"><i class=\"icon icon-arrow-up\"></i></button>
+              ";
+          echo "</h7>";
+          echo "<h4>$project->name";
           echo "</h4>";
           echo "<h5>$project->startdate - $project->enddate</h5>";
           echo "<mark>";

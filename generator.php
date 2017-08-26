@@ -66,7 +66,7 @@ include("functions.php") ?>
       <div class="docs-content column col-9 col-sm-9"></div>
       <div class="docs-content column col-3 col-sm-3">
           <button class="btn btn-action circle btn-primary timelineopen" onclick="togglebtn('timelineopen');"><i class="icon icon-arrow-down"></i></button>
-          <button class="btn btn-action circle hidden timelineopen" onclick="togglebtn('timelineopen');"><i class="icon icon-arrow-up"></i></button>
+          <button class="btn btn-action circle hidden togglebtn" onclick="togglebtn('timelineopen');"><i class="icon icon-arrow-up"></i></button>
       </div>
     </section>
 
