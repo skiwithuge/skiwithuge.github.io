@@ -83,6 +83,7 @@
   -moz-transform: scale(1.6);
   -o-transform: scale(1.6);
   transform: scale(1.6);
+  z-index: 2; position: absolute;
 }
 .zoom {
   -webkit-transition: all .4s ease-in-out;

@@ -11,11 +11,13 @@ include("functions.php") ?>
   <link rel="stylesheet" href="css/spectre-exp.min.css" />
   <link rel="stylesheet" href="css/spectre-icons.min.css" />
   <link rel="stylesheet" href="css/docs.css" />
-
   <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/viewbox.css">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="js/zooming.js"></script>
   <script type="text/javascript" src="js/actions.js"></script>
+  <script type="text/javascript" src="js/jquery.viewbox.js"></script>
 </head>
   <body>
   <?php generateNav() ?>

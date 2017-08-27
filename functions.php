@@ -50,11 +50,19 @@ NODE;
 NODE;
 }
 
-function generateCarousel($photos){
+function generateCarousel2($photos, $divcode){
+  for($i=0;$i<count($photos);$i++){
+    echo "<a href=\"img/$photos[$i]\" class=\"image-link\">";
+      echo "<img src=\"img/thumb_$photos[$i]\" alt=\"\">";
+    echo "</a>";
+  }
+}
+
+function generateCarousel($photos,$divcode){
   echo "<div class=\"carousel\">";
   for($i=0;$i<count($photos);$i++){
     $normalizedCount = $i + 1;
-    echo "<input type=\"radio\" id=\"slide-$normalizedCount\" name=\"carousel-radio\" hidden=\"\" class=\"carousel-locator\"";
+    echo "<input type=\"radio\" id=\"slide-$normalizedCount$divcode\" name=\"carousel-radio\" hidden=\"\" class=\"carousel-locator\"";
     if($i == 0)
       echo "checked=\"\"";
     echo ">";
@@ -70,10 +78,10 @@ function generateCarousel($photos){
       $prev = count($photos);
 
     echo "<figure class=\"carousel-item\">";
-    echo "<label class=\"item-prev btn btn-action btn-lg\" for=\"slide-$prev\">";
+    echo "<label class=\"item-prev btn btn-action btn-lg\" for=\"slide-$prev$divcode\">";
     echo "<i class=\"icon icon-arrow-left\"></i>";
     echo "</label>";
-    echo "<label class=\"item-next btn btn-action btn-lg\" for=\"slide-$next\">";
+    echo "<label class=\"item-next btn btn-action btn-lg\" for=\"slide-$next$divcode\">";
     echo "<i class=\"icon icon-arrow-right\"></i>";
     echo "</label>";
     echo "<img src=\"img/$photos[$i]\" class=\"img-responsive rounded zoom\" alt=\"AlEx\">";
@@ -82,7 +90,7 @@ function generateCarousel($photos){
   echo "<div class=\"carousel-nav\">";
   for($i=0;$i<count($photos);$i++) {
     $normalizedCount = $i + 1;
-    echo "<label class=\"nav-item text-hide hand\" for=\"slide-$normalizedCount\">$normalizedCount</label>";
+    echo "<label class=\"nav-item text-hide hand\" for=\"slide-$normalizedCount$divcode\">$normalizedCount$divcode</label>";
   }
   echo "</div>";
   echo "</div>";
@@ -119,7 +127,7 @@ function generateProject($project){
         echo "</div>";
         echo "<div class=\"card-footer\">";
           if(count($project->photos->photo) != 0)
-            generateCarousel($project->photos->photo);
+            generateCarousel2($project->photos->photo, $divcode);
         echo "</div>";
       echo "</div>";
     echo "</section>";
