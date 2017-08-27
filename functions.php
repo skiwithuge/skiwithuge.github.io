@@ -103,15 +103,20 @@ function generateProject($project){
     echo "<section class=\"notes\">";
       echo "<div class=\"card\">";
         echo "<div class=\"card-header\">";
-          echo "<h7>";
-            echo "
-                <button class=\"btn btn-action btn-sm circle btn-primary float-right $divcode\" onclick=\"togglebtn('$divcode');\"><i class=\"icon icon-arrow-down\"></i></button>
-                <button class=\"btn btn-action btn-sm circle hidden float-right $divcode\" onclick=\"togglebtn('$divcode');\"><i class=\"icon icon-arrow-up\"></i></button>
-              ";
-          echo "</h7>";
+          if(count($project->photos->photo) != 0){
+            echo "<h7>";
+              echo "
+                  <button class=\"btn btn-action btn-sm circle btn-primary float-right $divcode\" onclick=\"togglebtn('$divcode');\"><i class=\"icon icon-arrow-down\"></i></button>
+                  <button class=\"btn btn-action btn-sm circle hidden float-right $divcode\" onclick=\"togglebtn('$divcode');\"><i class=\"icon icon-arrow-up\"></i></button>
+                ";
+            echo "</h7>";
+          }
           echo "<h4>$project->name";
           echo "</h4>";
-          echo "<h5>$project->startdate - $project->enddate</h5>";
+          echo "<h5>$project->startdate";
+          if(!empty($project->enddate))
+            echo " - $project->enddate";
+          echo "</h5>";
           echo "<mark>";
           foreach($project->languages->language as $lg){
             echo "$lg";
@@ -122,10 +127,10 @@ function generateProject($project){
           echo "</mark>";
         echo "</div>";
 
-        echo "<div id=\"$divcode\" class=\"card-body hidden\">";
+        echo "<div  class=\"card-body\">";
           echo "<p>$project->description</p>";
         echo "</div>";
-        echo "<div class=\"card-footer\">";
+        echo "<div id=\"$divcode\" class=\"card-footer\" hidden>";
           if(count($project->photos->photo) != 0)
             generateCarousel2($project->photos->photo, $divcode);
         echo "</div>";

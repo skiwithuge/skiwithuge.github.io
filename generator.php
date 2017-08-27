@@ -15,7 +15,6 @@ include("functions.php") ?>
   <link rel="stylesheet" href="css/viewbox.css">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="js/zooming.js"></script>
   <script type="text/javascript" src="js/actions.js"></script>
   <script type="text/javascript" src="js/jquery.viewbox.js"></script>
 </head>
@@ -68,7 +67,7 @@ include("functions.php") ?>
       <div class="docs-content column col-9 col-sm-9"></div>
       <div class="docs-content column col-3 col-sm-3">
           <button class="btn btn-action circle btn-primary timelineopen" onclick="togglebtn('timelineopen');"><i class="icon icon-arrow-down"></i></button>
-          <button class="btn btn-action circle hidden togglebtn" onclick="togglebtn('timelineopen');"><i class="icon icon-arrow-up"></i></button>
+          <button class="btn btn-action circle hidden timelineopen" onclick="togglebtn('timelineopen');"><i class="icon icon-arrow-up"></i></button>
       </div>
     </section>
 
@@ -101,12 +100,33 @@ include("functions.php") ?>
       <header class="text-center"><h1>Interests and Hobbies</h1></header>
 
       <section class="columns">
-          <div class="docs-content column col-3 col-sm-3">
+          <div class="docs-content column col-3 col-sm-2 centered text-center" >
+                  <h4>Cooking</h4>
+                  <p><i class="fa fa-cutlery fa-5x" aria-hidden="true"></i></p>
           </div>
-          <div class="docs-content column col-6 col-sm-6">
-              <section class="notes">
-                  <p>sample text</p>
-              </section>
+          <div class="docs-content column col-3 col-sm-2 centered text-center">
+                  <h4>Literature</h4>
+                  <p><i class="fa fa-book fa-5x" aria-hidden="true"></i></p>
+          </div>
+          <div class="docs-content column col-3 col-sm-2 centered text-center">
+                  <h4>Bioinformatics</h4>
+                  <p><i class="fa fa-flask fa-5x" aria-hidden="true"></i></p>
+          </div>
+          <div class="docs-content column col-3 col-sm-2 centered text-center">
+                  <h4>Computer Security</h4>
+                  <p><i class="fa fa-bug fa-5x" aria-hidden="true"></i></p>
+          </div>
+          <div class="docs-content column col-3 col-sm-2 centered text-center">
+              <h4>Android</h4>
+              <p><i class="fa fa-android fa-5x" aria-hidden="true"></i></p>
+          </div>
+          <div class="docs-content column col-3 col-sm-2 centered text-center">
+              <h4>Web Developing</h4>
+              <p><i class="fa fa-code fa-5x" aria-hidden="true"></i></p>
+          </div>
+          <div class="docs-content column col-3 col-sm-2 centered text-center">
+              <h4>Electronics</h4>
+              <p><i class="fa fa-microchip fa-5x" aria-hidden="true"></i></p>
           </div>
       </section>
     </section>

@@ -56,7 +56,7 @@
             <language>MegaBlast</language>
             <language>BowTie2</language>
         </languages>
-        <description></description>
+        <description>Project dedicated to the research and the analysis of the possible fusions of the BCAR4 gene with other genes</description>
         <photos></photos>
     </project>
     <project>
@@ -68,7 +68,7 @@
             <language>XML</language>
             <language>WSDL 1.1</language>
         </languages>
-        <description></description>
+        <description>Project based on the Client/Server model of an application for the management of flights and airport operations</description>
         <photos></photos>
     </project>
     <project>
@@ -81,7 +81,7 @@
             <language>Javascript</language>
             <language>Mysql</language>
         </languages>
-        <description></description>
+        <description>Development and Implementation of an auctions web site</description>
         <photos></photos>
     </project>
     <project>
@@ -91,7 +91,8 @@
         <languages>
             <language>Java</language>
         </languages>
-        <description></description>
+        <description>Group project based on the development of an heuristics for the resolution of the TSP (Traveling Salesman Problem)
+            problem.</description>
         <photos></photos>
     </project>
     <project>
@@ -104,7 +105,7 @@
             <language>jQuery</language>
             <language>GMaps API</language>
         </languages>
-        <description></description>
+        <description>Development and implementation of an interface for a web system of geolocated images</description>
         <photos></photos>
     </project>
     <project>
@@ -115,7 +116,7 @@
             <language>Java</language>
             <language>MySQL</language>
         </languages>
-        <description></description>
+        <description>Creation and development of a software for the management of a library</description>
         <photos></photos>
     </project>
     <project>
@@ -125,7 +126,10 @@
         <languages>
             <language>mShell (Symbian OS)</language>
         </languages>
-        <description></description>
+        <description><![CDATA[
+        <strong>SmsViewer</strong>: App developed in mShell to visualize a conversation between two peers<br>
+        <strong>OcellManager</strong> App developed in mShell to manage the incomes and the outcomes messages<br>
+        ]]></description>
         <photos></photos>
     </project>
     <project>
@@ -136,7 +140,9 @@
             <language>PHP</language>
             <language>MySQL</language>
         </languages>
-        <description></description>
+        <description>
+            System realized to share external links of hosting sites
+        </description>
         <photos></photos>
     </project>
 </projects>
