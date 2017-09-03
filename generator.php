@@ -57,7 +57,7 @@ include("functions.php") ?>
             ?>
           </div>
           <?php
-            printTimelineNode('2017',['Working as a Bioinformatics Research Assistant at Polito (Politecnico di Torino, Turin - Italy)']);
+            printTimelineNode('2017',['Coursera\'s Machine Learning Certificate','Working as a Bioinformatics Research Assistant at Polito (Politecnico di Torino, Turin - Italy)']);
           ?>
         </div>
       </div>
@@ -141,6 +141,34 @@ include("functions.php") ?>
           <div class="docs-content column col-3 col-sm-3">
           </div>
           <div class="docs-content column col-6 col-sm-6">
+              <section class="notes">
+                  <form class="form-horizontal">
+                      <div class="form-group">
+                          <div class="col-1">
+                          </div>
+                          <div class="col-10">
+                              <input class="form-input" type="text" id="input-example-1" placeholder="Name" />
+                          </div>
+                      </div>
+                      <!-- form textarea control -->
+                      <div class="form-group">
+                          <div class="col-1">
+                          </div>
+                          <div class="col-10">
+                            <textarea class="form-input" id="input-example-3" placeholder="Message" rows="3"></textarea>
+                          </div>
+                      </div>
+                      <div class="form-group">
+                          <div class="col-1">
+                          </div>
+                          <div class="col-10">
+                              <button class="btn btn-primary float-right" type="submit">Submit</button>
+                              <button class="btn btn-link float-right" type="reset">Cancel</button>
+                          </div>
+                      </div>
+                  </form>
+              </section>
+              <br><br>
               <section class="notes text-center">
                   <h2>
                       <i class="fa fa-facebook" aria-hidden="true"></i>
