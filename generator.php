@@ -72,6 +72,21 @@ include("functions.php") ?>
     </section>
 
     <div class="divider"></div>
+      <section class="container grid-960">
+          <br>
+
+          <header class="text-center"><h1>Work</h1></header>
+
+          <section class="columns">
+              <div class="docs-content column col-3 col-sm-3">
+              </div>
+              <div class="docs-content column col-6 col-sm-6">
+              </div>
+          </section>
+      </section>
+
+    <div class="divider"></div>
+
 
     <section class="container grid-960">
 
@@ -104,10 +119,10 @@ include("functions.php") ?>
                   <h4>Cooking</h4>
                   <p><i class="fa fa-cutlery fa-5x" aria-hidden="true"></i></p>
           </div>
-          <div class="docs-content column col-3 col-sm-2 centered text-center">
+          <!--<div class="docs-content column col-3 col-sm-2 centered text-center">
                   <h4>Literature</h4>
                   <p><i class="fa fa-book fa-5x" aria-hidden="true"></i></p>
-          </div>
+          </div>-->
           <div class="docs-content column col-3 col-sm-2 centered text-center">
                   <h4>Bioinformatics</h4>
                   <p><i class="fa fa-flask fa-5x" aria-hidden="true"></i></p>
@@ -142,7 +157,7 @@ include("functions.php") ?>
           </div>
           <div class="docs-content column col-6 col-sm-6">
               <section class="notes">
-                  <form class="form-horizontal">
+                  <form class="form-horizontal" action="https://formspree.io/skiwithuge@gmail.com" method="POST">
                       <div class="form-group">
                           <div class="col-1">
                           </div>
@@ -171,10 +186,10 @@ include("functions.php") ?>
               <br><br>
               <section class="notes text-center">
                   <h2>
-                      <i class="fa fa-facebook" aria-hidden="true"></i>
-                      <i class="fa fa-twitter" aria-hidden="true"></i>
-                      <i class="fa fa-linkedin" aria-hidden="true"></i>
-                      <i class="fa fa-github" aria-hidden="true"></i>
+                      <a href="https://www.facebook.com/oscicolone"> <i class="fa fa-facebook" aria-hidden="true"></i></a>
+                      <a href="https://twitter.com/Zio123"> <i class="fa fa-twitter" aria-hidden="true"></i></a>
+                      <a href="https://www.linkedin.com/in/orazio-scicolone-16235169/"> <i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                      <a href="https://github.com/skiwithuge"> <i class="fa fa-github" aria-hidden="true"></i></a>
                   </h2>
               </section>
           </div>
@@ -182,6 +197,24 @@ include("functions.php") ?>
     </section>
 
 
+  </section>
+
+  <section class="section section-hero bg-gray">
+      <br>
+      <header class="text-center"><h1>Credits</h1></header>
+      <section class="columns">
+          <div class="docs-content column col-3 col-sm-3">
+          </div>
+          <div class="docs-content column col-6 col-sm-6">
+              <section class="notes">
+                  <h5>Spectre</h5>
+                  <h5>Font Awesome</h5>
+                  <h5>jQuery</h5>
+                  <h5>Viewbox</h5>
+                  <h5>2017 - Orazio Scicolone</h5>
+              </section>
+          </div>
+      </section>
   </section>
   </body>
 </html>
