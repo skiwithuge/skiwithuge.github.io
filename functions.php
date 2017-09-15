@@ -12,6 +12,7 @@ function generateNav(){
         <nav class="navbar">
           <section class="navbar-section">
             <a href="index.html" class="btn btn-link">Timeline</a>
+            <a href="index.html" class="btn btn-link">Work</a>
             <a href="index.html" class="btn btn-link">Projects</a>
             <a href="index.html" class="btn btn-link">Skills</a>
             <a href="index.html" class="btn btn-link">Interests</a>

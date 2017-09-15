@@ -16,6 +16,9 @@
   color: #e7e9ed;
   padding: 1rem;
 }
+.bg-gray a{
+  color: #e7e9ed;
+}
 /*.bg-dark {
   background: #50596c;
   color: #fff;

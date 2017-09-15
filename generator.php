@@ -72,18 +72,26 @@ include("functions.php") ?>
     </section>
 
     <div class="divider"></div>
-      <section class="container grid-960">
-          <br>
+    <section class="container grid-960">
+        <br>
 
-          <header class="text-center"><h1>Work</h1></header>
+        <header class="text-center"><h1>Work</h1></header>
 
-          <section class="columns">
-              <div class="docs-content column col-3 col-sm-3">
-              </div>
-              <div class="docs-content column col-6 col-sm-6">
-              </div>
-          </section>
-      </section>
+        <section class="columns">
+            <div class="docs-content column col-1 col-sm-1">
+            </div>
+            <div class="docs-content column col-4 col-sm-4">
+                Online Newspaper
+            </div>
+            <div class="docs-content column col-2 col-sm-2">
+            </div>
+            <div class="docs-content column col-4 col-sm-4">
+                University Portal
+            </div>
+            <div class="docs-content column col-1 col-sm-1">
+            </div>
+        </section>
+    </section>
 
     <div class="divider"></div>
 
@@ -207,10 +215,10 @@ include("functions.php") ?>
           </div>
           <div class="docs-content column col-6 col-sm-6">
               <section class="notes">
-                  <h5>Spectre</h5>
-                  <h5>Font Awesome</h5>
-                  <h5>jQuery</h5>
-                  <h5>Viewbox</h5>
+                  <h5><a href="https://picturepan2.github.io/spectre/">Spectre</a></h5>
+                  <h5><a href="http://fontawesome.io">Font Awesome</a></h5>
+                  <h5><a href="https://jquery.com">jQuery</a></h5>
+                  <h5><a href="https://github.com/pgooood/viewbox">Viewbox</a></h5>
                   <h5>2017 - Orazio Scicolone</h5>
               </section>
           </div>
