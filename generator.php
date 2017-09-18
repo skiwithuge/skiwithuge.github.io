@@ -32,7 +32,7 @@ include("functions.php") ?>
   <section class="container grid-960">
     <br>
 
-    <header class="text-center"><h1>Timeline</h1></header>
+    <header class="text-center air"><h1>Timeline</h1></header>
 
     <section class="columns">
       <div class="docs-content column col-3 col-sm-3">
@@ -74,20 +74,66 @@ include("functions.php") ?>
     <section class="container grid-960">
         <br>
 
-        <header class="text-center"><h1>Work</h1></header>
-
+        <header class="text-center air"><h1>Work</h1></header>
         <section class="columns">
             <div class="docs-content column col-1 col-sm-1">
             </div>
             <div class="docs-content column col-4 col-sm-4">
-                Online Newspaper
+                <div class="card">
+                    <div class="card-header">
+                        <h4 class="card-title">Research Fellow</h4>
+                        <h6 class="card-subtitle">02/2017 - to date</h6>
+                    </div>
+                    <div class="card-body">
+                        <li>Build innovative advanced Bioinformatics tools
+                            <ul>
+                                <li>Differential Analysis Tool</li>
+                                <li>Fastq2Tagq</li>
+                            </ul>
+                        </li>
+                    </div>
+                </div>
             </div>
             <div class="docs-content column col-2 col-sm-2">
             </div>
             <div class="docs-content column col-4 col-sm-4">
-                University Portal
+                <div class="card">
+                    <div class="card-header">
+                        <h4 class="card-title">Online Newspaper</h4>
+                        <h6 class="card-subtitle">11/2012 - 11/2013</h6>
+                    </div>
+                    <div class="card-image">
+                        <img src="img/gs.jpg" class="img-responsive" />
+                    </div>
+                    <div class="card-body">
+                        <li>FrontEnd/BackEnd editing of pages of the JOOMLA CMS for a Local Newspaper WebSite</li>
+                        <li>Rewrited URLs using Apache Mod Rewrite</li>
+                        <li>Rewrited the RSS Engine</li>
+                    </div>
+                </div>
             </div>
             <div class="docs-content column col-1 col-sm-1">
+            </div>
+        </section>
+        <section class="columns">
+            <div class="docs-content column col-4 col-sm-4">
+            </div>
+            <div class="docs-content column col-4 col-sm-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h4 class="card-title">University Portal</h4>
+                        <h6 class="card-subtitle">08/2012 - 01/2013</h6>
+                    </div>
+                    <div class="card-image">
+                        <div class="video-responsive video-responsive-4-3">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/g20MERlDGPE" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        Unipablog was the first university portal of Università degli Studi di Palermo
+                    </div>
+                </div>
+            <div class="docs-content column col-4 col-sm-4">
             </div>
         </section>
     </section>
@@ -96,7 +142,7 @@ include("functions.php") ?>
 
     <section class="container grid-960">
 
-      <header class="text-center"><h1>Projects</h1></header>
+      <header class="text-center air"><h1>Projects</h1></header>
 
       <section class="columns">
 
@@ -117,7 +163,7 @@ include("functions.php") ?>
 
     <section class="container grid-960">
 
-      <header class="text-center"><h1>Interests and Hobbies</h1></header>
+      <header class="text-center air"><h1>Interests and Hobbies</h1></header>
 
       <section class="columns">
           <div class="docs-content column col-3 col-sm-2 centered text-center" >
@@ -154,7 +200,7 @@ include("functions.php") ?>
 
     <section class="container grid-960">
 
-      <header class="text-center"><h1>Contact Me</h1></header>
+      <header class="text-center air"><h1>Contact Me</h1></header>
 
       <section class="columns">
           <div class="docs-content column col-2 col-sm-2">

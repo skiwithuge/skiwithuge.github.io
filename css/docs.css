@@ -94,3 +94,6 @@
   -o-transition: all .4s ease-in-out;
   -ms-transition: all .4s ease-in-out;
 }
+.air{
+  padding: 2rem;
+}
