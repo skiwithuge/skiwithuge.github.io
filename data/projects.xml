@@ -9,14 +9,16 @@
             <language>Python</language>
             <language>Bash</language>
         </languages>
+        <imghead>msc1.png</imghead>
         <description>
             Developement of a testbench to analyze the quality of pairwise alignments. In detail the work produced the creation of a tool to visualize the scoring matrices and the creation of a tool to allow the evaluation of the different scoring schemes.
         </description>
         <photos>
-            <photo>alex.png</photo>
-            <photo>aliBenchScheme.png</photo>
-            <photo>ntcoffee.png</photo>
-            <photo>tcoffeeScheme.png</photo>
+            <photo>msc1.png</photo>
+            <photo>msc2.png</photo>
+            <photo>msc3.png</photo>
+            <photo>msc4.png</photo>
+            <photo>msc5.png</photo>
         </photos>
     </project>
 
@@ -57,7 +59,9 @@
             <language>BowTie2</language>
         </languages>
         <description>Project dedicated to the research and the analysis of the possible fusions of the BCAR4 gene with other genes</description>
-        <photos></photos>
+        <photos>
+            <photo>bcar.png</photo>
+        </photos>
     </project>
     <project>
         <name>Airport Management</name>
@@ -68,8 +72,12 @@
             <language>XML</language>
             <language>WSDL 1.1</language>
         </languages>
+        <imghead>air2.png</imghead>
         <description>Project based on the Client/Server model of an application for the management of flights and airport operations</description>
-        <photos></photos>
+        <photos>
+            <photo>air1.png</photo>
+            <photo>air2.png</photo>
+        </photos>
     </project>
     <project>
         <name>Online Auctions</name>
@@ -81,8 +89,12 @@
             <language>Javascript</language>
             <language>Mysql</language>
         </languages>
+        <imghead>bid1.png</imghead>
         <description>Development and Implementation of an auctions web site</description>
-        <photos></photos>
+        <photos>
+            <photo>bid1.png</photo>
+            <photo>bid2.png</photo>
+        </photos>
     </project>
     <project>
         <name>TSP problem</name>
@@ -105,8 +117,13 @@
             <language>jQuery</language>
             <language>GMaps API</language>
         </languages>
+        <imghead>wt1.png</imghead>
         <description>Development and implementation of an interface for a web system of geolocated images</description>
-        <photos></photos>
+        <photos>
+            <photo>wt1.png</photo>
+            <photo>wt2.png</photo>
+            <photo>wt3.png</photo>
+        </photos>
     </project>
     <project>
         <name>Online Library</name>
@@ -116,8 +133,15 @@
             <language>Java</language>
             <language>MySQL</language>
         </languages>
+        <imghead>bib1.png</imghead>
         <description>Creation and development of a software for the management of a library</description>
-        <photos></photos>
+        <photos>
+            <photo>bib1.png</photo>
+            <photo>bib2.png</photo>
+            <photo>bib3.png</photo>
+            <photo>bib4.png</photo>
+            <photo>bib5.png</photo>
+        </photos>
     </project>
     <project>
         <name>SmsViewer, oCellManager</name>
@@ -128,9 +152,16 @@
         </languages>
         <description><![CDATA[
         <strong>SmsViewer</strong>: App developed in mShell to visualize a conversation between two peers<br>
-        <strong>OcellManager</strong> App developed in mShell to manage the incomes and the outcomes messages<br>
+        <strong>OcellManager</strong>: App developed in mShell to manage the incomes and the outcomes messages<br>
+        <strong>Other Mshell Experiments</strong>: 8 ball, Sound Machine
         ]]></description>
-        <photos></photos>
+        <photos>
+            <photo>mshell1.jpg</photo>
+            <photo>mshell5.jpg</photo>
+            <photo>mshell2.jpg</photo>
+            <photo>mshell4.jpg</photo>
+            <photo>mshell3.jpg</photo>
+        </photos>
     </project>
     <project>
         <name>PHP Download System - PHP, MySQL</name>
@@ -140,6 +171,7 @@
             <language>PHP</language>
             <language>MySQL</language>
         </languages>
+        <imghead>hod1.png</imghead>
         <description>
             System realized to share external links of hosting sites
         </description>

@@ -112,9 +112,9 @@ function generateProject($project){
                 ";
             echo "</h7>";
           }
-          echo "<h4>$project->name";
+          echo "<h4 class=\"card-title\">$project->name";
           echo "</h4>";
-          echo "<h5>$project->startdate";
+          echo "<h5 class=\"card-subtitle\">$project->startdate";
           if(!empty($project->enddate))
             echo " - $project->enddate";
           echo "</h5>";
@@ -127,10 +127,14 @@ function generateProject($project){
           }
           echo "</mark>";
         echo "</div>";
-
         echo "<div  class=\"card-body\">";
           echo "<p>$project->description</p>";
         echo "</div>";
+        if(count($project->imghead) != 0){
+            echo "<div class=\"card-image\">";
+            echo "<img src=\"img/$project->imghead\" class=\"img-responsive pt-10 pr-10 pl-10 pb-10\" />";
+            echo "</div>";
+        }
         echo "<div id=\"$divcode\" class=\"card-footer\" hidden>";
           if(count($project->photos->photo) != 0)
             generateCarousel2($project->photos->photo, $divcode);

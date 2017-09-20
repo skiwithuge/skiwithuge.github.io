@@ -57,7 +57,7 @@ include("functions.php") ?>
             ?>
           </div>
           <?php
-            printTimelineNode('2017',['Coursera\'s Machine Learning Certificate','Working as a Bioinformatics Research Assistant at Polito (Politecnico di Torino, Turin - Italy)']);
+            printTimelineNode('2017',['Coursera\'s Machine Learning Certificate','Working as a Bioinformatics Research Fellow at Polito (Politecnico di Torino, Turin - Italy)']);
           ?>
         </div>
       </div>
@@ -81,14 +81,14 @@ include("functions.php") ?>
             <div class="docs-content column col-4 col-sm-4">
                 <div class="card">
                     <div class="card-header">
-                        <h4 class="card-title">Research Fellow</h4>
+                        <h4 class="card-title">Research Fellow @ Politecnico di Torino</h4>
                         <h6 class="card-subtitle">02/2017 - to date</h6>
                     </div>
                     <div class="card-body">
                         <li>Build innovative advanced Bioinformatics tools
                             <ul>
-                                <li>Differential Analysis Tool</li>
-                                <li>Fastq2Tagq</li>
+                                <li>Differential Analysis Tool - <mark>R</mark></li>
+                                <li>Fastq2Tagq - <mark>C++</mark></li>
                             </ul>
                         </li>
                     </div>
