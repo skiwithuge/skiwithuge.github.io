@@ -145,7 +145,6 @@ include("functions.php") ?>
       <header class="text-center air"><h1>Projects</h1></header>
 
       <section class="columns">
-
                   <?php
                     $projects = simplexml_load_file('data/projects.xml');
                     //foreach($projects as $pj) {
@@ -160,6 +159,42 @@ include("functions.php") ?>
       </section>
     </section>
 
+    <section class="container grid-960">
+
+        <header class="text-center air"><h1>Skills</h1></header>
+        <section class="columns">
+            <div class="docs-content column col-1 col-sm-1">
+            </div>
+            <div class="docs-content column col-10 col-sm-10">
+                <section class="notes text-center">
+                    <table class="table table-striped table-hover">
+                        <thead>
+                            <tr class="active text-center">
+                                <th></th>
+                                <th>Proficient in:</th>
+                                <th>Familiar with:</th>
+                                <th>Basic Knowledge:</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+    <tr >
+        <td>Languages</td><td>C++ , C , R , Python, Bash, PHP</td><td>Android, Java, Javascript</td><td></td>
+    </tr>
+    <tr >
+        <td>Databases</td><td>SQL</td><td>MongoDB, SQLite</td><td></td>
+    </tr>
+    <tr >
+        <td>Frameworks</td><td>SeqAn</td><td>GMaps API</td><td></td>
+    </tr>
+    <tr>
+        <td>Tools</td><td></td><td></td><td></td>
+    </tr>
+                        </tbody>
+                    </table>
+                </section>
+            </div>
+        </section>
+    </section>
 
     <section class="container grid-960">
 
