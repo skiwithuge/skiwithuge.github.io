@@ -11,12 +11,12 @@ function generateNav(){
       <section class="grid-header container grid-960">
         <nav class="navbar">
           <section class="navbar-section">
-            <a href="index.html" class="btn btn-link">Timeline</a>
-            <a href="index.html" class="btn btn-link">Work</a>
-            <a href="index.html" class="btn btn-link">Projects</a>
-            <a href="index.html" class="btn btn-link">Skills</a>
-            <a href="index.html" class="btn btn-link">Interests</a>
-            <a href="index.html" class="btn btn-link">Contacts</a>
+            <a href="#Timeline" class="btn btn-link">Timeline</a>
+            <a href="#Work" class="btn btn-link">Work</a>
+            <a href="#Projects" class="btn btn-link">Projects</a>
+            <a href="#Skills" class="btn btn-link">Skills</a>
+            <a href="#Interests" class="btn btn-link">Interests</a>
+            <a href="#Contacts" class="btn btn-link">Contacts</a>
           </section>
           <section class="navbar-section">
           </section>

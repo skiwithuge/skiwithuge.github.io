@@ -50,9 +50,12 @@
   color: #50596c;
 }*/
 .grid-header .btn-link {
-  color: #e7e9ed;
+  color: #dbdde1;
   padding-left: .6rem;
   padding-right: .6rem;
+}
+.grid-header .btn-link:hover {
+  color: #f9fbff;
 }
 .grid-hero {
   margin-bottom: 4rem;

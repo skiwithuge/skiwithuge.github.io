@@ -32,7 +32,7 @@ include("functions.php") ?>
   <section class="container grid-960">
     <br>
 
-    <header class="text-center air"><h1>Timeline</h1></header>
+    <header class="text-center air"><h1 id="Timeline">Timeline</h1></header>
 
     <section class="columns">
       <div class="docs-content column col-3 col-sm-3">
@@ -44,8 +44,8 @@ include("functions.php") ?>
 
           <div id="timelineopen" class="hidden">
             <?php
-            printTimelineNode('2000',['First Web Developement Book']);
-            printTimelineNode('2005',['First Programming book (PHP)']);
+            //printTimelineNode('2000',['First Web Developement Book']);
+            //printTimelineNode('2005',['First Programming book (PHP)']);
             printTimelineNode('2006',['First web sites experiments (HTML, CSS, PHP)']);
             printTimelineNode('2007',['First web app']);
             printTimelineNode('2009',['Experiments in mShell (Symbian)','Start bachelor\'s degree in Computer Engineering (Universita\' di Palermo, Palermo - Italy)']);
@@ -57,7 +57,7 @@ include("functions.php") ?>
             ?>
           </div>
           <?php
-            printTimelineNode('2017',['Coursera\'s Machine Learning Certificate','Working as a Bioinformatics Research Fellow at Polito (Politecnico di Torino, Turin - Italy)']);
+            printTimelineNode('2017',['Coursera\'s Machine Learning Certificate','Droidcon Hackaton 2017','Working as a Bioinformatics Research Fellow at Polito (Politecnico di Torino, Turin - Italy)']);
           ?>
         </div>
       </div>
@@ -74,7 +74,7 @@ include("functions.php") ?>
     <section class="container grid-960">
         <br>
 
-        <header class="text-center air"><h1>Work</h1></header>
+        <header class="text-center air"><h1 id="Work">Work</h1></header>
         <section class="columns">
             <div class="docs-content column col-1 col-sm-1">
             </div>
@@ -142,7 +142,7 @@ include("functions.php") ?>
 
     <section class="container grid-960">
 
-      <header class="text-center air"><h1>Projects</h1></header>
+      <header class="text-center air"><h1 id="Projects">Projects</h1></header>
 
       <section class="columns">
                   <?php
@@ -161,7 +161,7 @@ include("functions.php") ?>
 
     <section class="container grid-960">
 
-        <header class="text-center air"><h1>Skills</h1></header>
+        <header class="text-center air"><h1 id="Skills">Skills</h1></header>
         <section class="columns">
             <div class="docs-content column col-1 col-sm-1">
             </div>
@@ -178,7 +178,7 @@ include("functions.php") ?>
                         </thead>
                         <tbody>
     <tr >
-        <td>Languages</td><td>C++, C, R, Python, Bash, PHP</td><td>Android, Java, Matlab, Javascript</td><td></td>
+        <td>Languages</td><td>C++, C, R, Bash, Python, PHP</td><td>Android, Java, Matlab, Javascript</td><td></td>
     </tr>
     <tr >
         <td>Databases</td><td>SQL</td><td>MongoDB, SQLite</td><td></td>
@@ -187,16 +187,16 @@ include("functions.php") ?>
         <td>Frameworks</td><td>SeqAn</td><td>GMaps API, jQuery, GTK</td><td></td>
     </tr>
     <tr >
-        <td>Technologies</td><td></td><td>Joomla</td><td>AJAX</td>
+        <td>Technologies</td><td></td><td></td><td>AJAX, Soap</td>
     </tr>
     <tr >
-        <td>Methods</td><td></td><td>Agile, UML</td><td></td>
+        <td>Methods</td><td></td><td>Agile, UML</td><td>SEO</td>
     </tr>
     <tr >
         <td>OSs</td><td>Linux, Windows</td><td></td><td></td>
     </tr>
     <tr>
-        <td>SWs</td><td colspan="2">Intellij Suite, Git, phpMyAdmin, Jupyter <br> Adobe Photoshop and Premiere</td><td></td><td></td>
+        <td>SWs</td><td>Intellij Suite, Git, phpMyAdmin, Jupyter <br> Adobe Photoshop and Premiere</td><td>Wordpress, Joomla</td><td></td>
     </tr>
                         </tbody>
                     </table>
@@ -207,17 +207,13 @@ include("functions.php") ?>
 
     <section class="container grid-960">
 
-      <header class="text-center air"><h1>Interests and Hobbies</h1></header>
+      <header class="text-center air"><h1 id="Interests">Interests and Hobbies</h1></header>
 
       <section class="columns">
           <div class="docs-content column col-3 col-sm-2 centered text-center" >
                   <h4>Cooking</h4>
                   <p><i class="fa fa-cutlery fa-5x" aria-hidden="true"></i></p>
           </div>
-          <!--<div class="docs-content column col-3 col-sm-2 centered text-center">
-                  <h4>Literature</h4>
-                  <p><i class="fa fa-book fa-5x" aria-hidden="true"></i></p>
-          </div>-->
           <div class="docs-content column col-3 col-sm-2 centered text-center">
                   <h4>Bioinformatics</h4>
                   <p><i class="fa fa-flask fa-5x" aria-hidden="true"></i></p>
@@ -244,7 +240,7 @@ include("functions.php") ?>
 
     <section class="container grid-960">
 
-      <header class="text-center air"><h1>Contact Me</h1></header>
+      <header class="text-center air"><h1 id="Contacts">Contact Me</h1></header>
 
       <section class="columns">
           <div class="docs-content column col-2 col-sm-2">
