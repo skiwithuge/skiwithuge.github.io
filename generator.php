@@ -178,25 +178,46 @@ include("functions.php") ?>
                         </thead>
                         <tbody>
     <tr >
-        <td>Languages</td><td>C++, C, R, Bash, Python, PHP</td><td>Android, Java, Matlab, Javascript</td><td></td>
+        <td>Languages</td>
+        <td>C++, C, R, Bash, Python, PHP</td>
+        <td>Android, Java, Matlab, Javascript</td>
+        <td></td>
     </tr>
     <tr >
-        <td>Databases</td><td>SQL</td><td>MongoDB, SQLite</td><td></td>
+        <td>Databases</td>
+        <td>SQL</td>
+        <td>MongoDB, SQLite</td>
+        <td></td>
     </tr>
     <tr >
-        <td>Frameworks</td><td>SeqAn</td><td>GMaps API, jQuery, GTK</td><td></td>
+        <td>Frameworks</td>
+        <td>SeqAn</td>
+        <td>GMaps API, jQuery, GTK</td>
+        <td></td>
     </tr>
     <tr >
-        <td>Technologies</td><td></td><td></td><td>AJAX, Soap</td>
+        <td>Technologies</td>
+        <td></td>
+        <td></td>
+        <td>Arduino, AJAX, Soap</td>
     </tr>
     <tr >
-        <td>Methods</td><td></td><td>Agile, UML</td><td>SEO</td>
+        <td>Methods</td>
+        <td></td>
+        <td>Agile, UML</td>
+        <td>Machine Learning, SEO</td>
     </tr>
     <tr >
-        <td>OSs</td><td>Linux, Windows</td><td></td><td></td>
+        <td>OSs</td>
+        <td>Linux, Windows</td>
+        <td></td>
+        <td></td>
     </tr>
     <tr>
-        <td>SWs</td><td>Intellij Suite, Git, phpMyAdmin, Jupyter <br> Adobe Photoshop and Premiere</td><td>Wordpress, Joomla</td><td></td>
+        <td>SWs</td>
+        <td>Intellij Suite, Git, phpMyAdmin, Jupyter <br> Adobe Photoshop and Premiere</td>
+        <td>Wordpress, Joomla, Bioinformatics Applications</td>
+        <td></td>
     </tr>
                         </tbody>
                     </table>
