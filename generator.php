@@ -178,16 +178,25 @@ include("functions.php") ?>
                         </thead>
                         <tbody>
     <tr >
-        <td>Languages</td><td>C++ , C , R , Python, Bash, PHP</td><td>Android, Java, Javascript</td><td></td>
+        <td>Languages</td><td>C++, C, R, Python, Bash, PHP</td><td>Android, Java, Matlab, Javascript</td><td></td>
     </tr>
     <tr >
         <td>Databases</td><td>SQL</td><td>MongoDB, SQLite</td><td></td>
     </tr>
     <tr >
-        <td>Frameworks</td><td>SeqAn</td><td>GMaps API</td><td></td>
+        <td>Frameworks</td><td>SeqAn</td><td>GMaps API, jQuery, GTK</td><td></td>
+    </tr>
+    <tr >
+        <td>Technologies</td><td></td><td>Joomla</td><td>AJAX</td>
+    </tr>
+    <tr >
+        <td>Methods</td><td></td><td>Agile, UML</td><td></td>
+    </tr>
+    <tr >
+        <td>OSs</td><td>Linux, Windows</td><td></td><td></td>
     </tr>
     <tr>
-        <td>Tools</td><td></td><td></td><td></td>
+        <td>SWs</td><td colspan="2">Intellij Suite, Git, phpMyAdmin, Jupyter <br> Adobe Photoshop and Premiere</td><td></td><td></td>
     </tr>
                         </tbody>
                     </table>
