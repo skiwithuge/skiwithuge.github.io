@@ -100,7 +100,7 @@ function generateCarousel($photos,$divcode){
 
 function generateProject($project){
   $divcode = hash('md5', $project->name);
-  echo "<div class=\"docs-content column col-5 col-sm-5\">";
+  echo "<div class=\"docs-content column col-5 col-sm-12\">";
     echo "<section class=\"notes\">";
       echo "<div class=\"card\">";
         echo "<div class=\"card-header\">";

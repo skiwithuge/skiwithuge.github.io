@@ -34,54 +34,54 @@ include("functions.php") ?>
 
   <section class="container grid-960">
     <br>
+    <section class="container grid-960">
+        <header class="text-center air"><h1 id="Timeline">Timeline</h1></header>
 
-    <header class="text-center air"><h1 id="Timeline">Timeline</h1></header>
-
-    <section class="columns">
-      <div class="docs-content column col-3 col-sm-3">
-      </div>
-      <div class="docs-content column col-6 col-sm-6">
-        <br>
-        <div class="timeline">
-          <?php printTimelineNode('1990',['Born'],''); ?>
-
-          <div id="timelineopen" class="hidden">
-            <?php
-            //printTimelineNode('2000',['First Web Developement Book']);
-            //printTimelineNode('2005',['First Programming book (PHP)']);
-            printTimelineNode('2006',['First web sites experiments (HTML, CSS, PHP)']);
-            printTimelineNode('2007',['First web app']);
-            printTimelineNode('2009',['Experiments in mShell (Symbian)','Start bachelor\'s degree in Computer Engineering (Universita\' di Palermo, Palermo - Italy)']);
-            printTimelineNode('2010',['Other Apps in mShell']);
-            printTimelineNode('2011',['Start a cooperation agreement to build a University portal']);
-            printTimelineNode('2012',['Built other web experiments and an Online Newspaper Web Site']);
-            printTimelineNode('2013',['Bachelor\'s Degree Graduation','Start Master\'s Degree in Computer Engineering (Politecnico di Torino, Turin - Italy)']);
-            printTimelineNode('2016',['Masters\'s Degree Graduation']);
-            ?>
+        <section class="columns">
+          <div class="docs-content column col-3 col-sm-1">
           </div>
-          <?php
-            printTimelineNode('2017',['Coursera\'s Machine Learning Certificate','Droidcon Hackaton 2017','Working as a Bioinformatics Research Fellow at Polito (Politecnico di Torino, Turin - Italy)']);
-          ?>
-        </div>
-      </div>
-    </section>
+          <div class="docs-content column col-6 col-sm-10">
+            <br>
+            <div class="timeline">
+              <?php printTimelineNode('1990',['Born'],''); ?>
 
-    <section class="columns">
-      <div class="docs-content column col-9 col-sm-9"></div>
-      <div class="docs-content column col-3 col-sm-3">
-          <button class="btn btn-action circle btn-primary timelineopen" onclick="togglebtn('timelineopen');"><i class="icon icon-arrow-down"></i></button>
-          <button class="btn btn-action circle hidden timelineopen" onclick="togglebtn('timelineopen');"><i class="icon icon-arrow-up"></i></button>
-      </div>
-    </section>
+              <div id="timelineopen" class="hidden">
+                <?php
+                //printTimelineNode('2000',['First Web Developement Book']);
+                //printTimelineNode('2005',['First Programming book (PHP)']);
+                printTimelineNode('2006',['First web sites experiments (HTML, CSS, PHP)']);
+                printTimelineNode('2007',['First web app']);
+                printTimelineNode('2009',['Experiments in mShell (Symbian)','Start bachelor\'s degree in Computer Engineering (Universita\' di Palermo, Palermo - Italy)']);
+                printTimelineNode('2010',['Other Apps in mShell']);
+                printTimelineNode('2011',['Start a cooperation agreement to build a University portal']);
+                printTimelineNode('2012',['Built other web experiments and an Online Newspaper Web Site']);
+                printTimelineNode('2013',['Bachelor\'s Degree Graduation','Start Master\'s Degree in Computer Engineering (Politecnico di Torino, Turin - Italy)']);
+                printTimelineNode('2016',['Masters\'s Degree Graduation']);
+                ?>
+              </div>
+              <?php
+                printTimelineNode('2017',['Coursera\'s Machine Learning Certificate','Droidcon Hackaton 2017','Working as a Bioinformatics Research Fellow at Polito (Politecnico di Torino, Turin - Italy)']);
+              ?>
+            </div>
+          </div>
+        </section>
 
+        <section class="columns">
+          <div class="docs-content column col-9 col-sm-9"></div>
+          <div class="docs-content column col-3 col-sm-3">
+              <button class="btn btn-action circle btn-primary timelineopen" onclick="togglebtn('timelineopen');"><i class="icon icon-arrow-down"></i></button>
+              <button class="btn btn-action circle hidden timelineopen" onclick="togglebtn('timelineopen');"><i class="icon icon-arrow-up"></i></button>
+          </div>
+        </section>
+    </section>
     <section class="container grid-960">
         <br>
 
         <header class="text-center air"><h1 id="Work">Work</h1></header>
         <section class="columns">
-            <div class="docs-content column col-1 col-sm-1">
+            <div class="docs-content column col-1 ">
             </div>
-            <div class="docs-content column col-4 col-sm-4">
+            <div class="docs-content column col-4 col-sm-12">
                 <div class="card">
                     <div class="card-header">
                         <h4 class="card-title">Research Fellow @ Politecnico di Torino</h4>
@@ -97,9 +97,9 @@ include("functions.php") ?>
                     </div>
                 </div>
             </div>
-            <div class="docs-content column col-2 col-sm-2">
+            <div class="docs-content column col-2 ">
             </div>
-            <div class="docs-content column col-4 col-sm-4">
+            <div class="docs-content column col-4 col-sm-12">
                 <div class="card">
                     <div class="card-header">
                         <h4 class="card-title">Online Newspaper</h4>
@@ -115,13 +115,13 @@ include("functions.php") ?>
                     </div>
                 </div>
             </div>
-            <div class="docs-content column col-1 col-sm-1">
+            <div class="docs-content column col-1 ">
             </div>
         </section>
         <section class="columns">
-            <div class="docs-content column col-4 col-sm-4">
+            <div class="docs-content column col-4 ">
             </div>
-            <div class="docs-content column col-4 col-sm-4">
+            <div class="docs-content column col-4 col-sm-12">
                 <div class="card">
                     <div class="card-header">
                         <h4 class="card-title">University Portal</h4>
@@ -136,7 +136,7 @@ include("functions.php") ?>
                         Unipablog was the first university portal of Università degli Studi di Palermo
                     </div>
                 </div>
-            <div class="docs-content column col-4 col-sm-4">
+            <div class="docs-content column col-4 ">
             </div>
         </section>
     </section>
@@ -156,7 +156,7 @@ include("functions.php") ?>
                     for($i=0;$i<count($projects);$i++){
                       generateProject($projects->project[$i]);
                       if($i%2 == 0)
-                          echo "<div class=\"docs-content column col-2 col-sm-2\"></div>";
+                          echo "<div class=\"docs-content column col-2\"></div>";
                     }
                   ?>
       </section>
@@ -166,9 +166,9 @@ include("functions.php") ?>
 
         <header class="text-center air"><h1 id="Skills">Skills</h1></header>
         <section class="columns">
-            <div class="docs-content column col-1 col-sm-1">
+            <div class="docs-content column col-1 ">
             </div>
-            <div class="docs-content column col-10 col-sm-10">
+            <div class="docs-content column col-10 col-sm-12">
                 <section class="notes text-center">
                     <table class="table table-striped table-hover">
                         <thead>
@@ -234,27 +234,27 @@ include("functions.php") ?>
       <header class="text-center air"><h1 id="Interests">Interests and Hobbies</h1></header>
 
       <section class="columns">
-          <div class="docs-content column col-3 col-sm-2 centered text-center" >
+          <div class="docs-content column col-3 col-sm-6 centered text-center" >
                   <h4>Cooking</h4>
                   <p><i class="fa fa-cutlery fa-5x" aria-hidden="true"></i></p>
           </div>
-          <div class="docs-content column col-3 col-sm-2 centered text-center">
+          <div class="docs-content column col-3 col-sm-6 centered text-center">
                   <h4>Bioinformatics</h4>
                   <p><i class="fa fa-flask fa-5x" aria-hidden="true"></i></p>
           </div>
-          <div class="docs-content column col-3 col-sm-2 centered text-center">
+          <div class="docs-content column col-3 col-sm-6 centered text-center">
                   <h4>Computer Security</h4>
                   <p><i class="fa fa-bug fa-5x" aria-hidden="true"></i></p>
           </div>
-          <div class="docs-content column col-3 col-sm-2 centered text-center">
+          <div class="docs-content column col-3 col-sm-6 centered text-center">
               <h4>Android</h4>
               <p><i class="fa fa-android fa-5x" aria-hidden="true"></i></p>
           </div>
-          <div class="docs-content column col-3 col-sm-2 centered text-center">
+          <div class="docs-content column col-3 col-sm-6 centered text-center">
               <h4>Web Developing</h4>
               <p><i class="fa fa-code fa-5x" aria-hidden="true"></i></p>
           </div>
-          <div class="docs-content column col-3 col-sm-2 centered text-center">
+          <div class="docs-content column col-3 col-sm-6 centered text-center">
               <h4>Electronics</h4>
               <p><i class="fa fa-microchip fa-5x" aria-hidden="true"></i></p>
           </div>
@@ -267,7 +267,7 @@ include("functions.php") ?>
       <header class="text-center air"><h1 id="Contacts">Contact Me</h1></header>
 
       <section class="columns">
-          <div class="docs-content column col-2 col-sm-2">
+          <div class="docs-content column col-2">
           </div>
 
           <div class="docs-content column col-2 col-sm-2">
@@ -283,7 +283,7 @@ include("functions.php") ?>
                   </h2>
               </section>
           </div>
-          <div class="docs-content column col-4 col-sm-4">
+          <div class="docs-content column col-4 col-sm-10">
 
               <div class="card">
 
