@@ -270,7 +270,7 @@ include("functions.php") ?>
           <div class="docs-content column col-2 col-sm-1">
           </div>
 
-          <div class="docs-content column col-2 col-sm-1">
+          <div class="docs-content column col-2 col-sm-2">
               <section class="notes text-center">
                   <h2>
                       <a href="https://www.facebook.com/oscicolone"> <i class="fa fa-facebook" aria-hidden="true"></i></a>
