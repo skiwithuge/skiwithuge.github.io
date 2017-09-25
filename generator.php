@@ -267,10 +267,10 @@ include("functions.php") ?>
       <header class="text-center air"><h1 id="Contacts">Contact Me</h1></header>
 
       <section class="columns">
-          <div class="docs-content column col-2">
+          <div class="docs-content column col-2 col-sm-1">
           </div>
 
-          <div class="docs-content column col-2 col-sm-2">
+          <div class="docs-content column col-2 col-sm-1">
               <section class="notes text-center">
                   <h2>
                       <a href="https://www.facebook.com/oscicolone"> <i class="fa fa-facebook" aria-hidden="true"></i></a>
@@ -283,7 +283,7 @@ include("functions.php") ?>
                   </h2>
               </section>
           </div>
-          <div class="docs-content column col-4 col-sm-10">
+          <div class="docs-content column col-4 col-sm-8">
 
               <div class="card">
 
@@ -346,7 +346,7 @@ include("functions.php") ?>
   </body>
 </html>
 <?php
-$html = ob_get_clean();
+/*$html = ob_get_clean();
 // Specify configuration
 $config = array(
     'indent'         => true,
@@ -356,7 +356,12 @@ $config = array(
 // Tidy
 $tidy = new tidy;
 $tidy->parseString($html, $config, 'utf8');
-$tidy->cleanRepair();
-file_put_contents('index.html', $tidy->html()->value);
-echo $tidy->html()->value;
+//$tidy->cleanRepair();
+file_put_contents('index.html', $tidy->html()->value);*/
+include_once('format.php');
+$format = new Format;
+$formatted_html = $format->HTML(ob_get_contents());
+file_put_contents('index.html', $formatted_html);
+echo $formatted_html;
+//echo $tidy->html()->value;
 ?>
