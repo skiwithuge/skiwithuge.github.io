@@ -1,6 +1,7 @@
 <?php
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
+ob_start();
 include("functions.php") ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -344,3 +345,18 @@ include("functions.php") ?>
   </section>
   </body>
 </html>
+<?php
+$html = ob_get_clean();
+// Specify configuration
+$config = array(
+    'indent'         => true,
+    'output-xhtml'   => true,
+    'wrap'           => 200);
+
+// Tidy
+$tidy = new tidy;
+$tidy->parseString($html, $config, 'utf8');
+$tidy->cleanRepair();
+file_put_contents('index.html', $tidy->html()->value);
+echo $tidy->html()->value;
+?>
