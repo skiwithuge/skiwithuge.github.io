@@ -100,3 +100,6 @@
 .air{
   padding: 2rem;
 }
+.responsivetable{
+  overflow-x:auto;
+}

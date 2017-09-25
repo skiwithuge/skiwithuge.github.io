@@ -170,6 +170,7 @@ include("functions.php") ?>
             </div>
             <div class="docs-content column col-10 col-sm-12">
                 <section class="notes text-center">
+                    <div class="responsivetable">
                     <table class="table table-striped table-hover">
                         <thead>
                             <tr class="active text-center">
@@ -224,6 +225,7 @@ include("functions.php") ?>
     </tr>
                         </tbody>
                     </table>
+                    </div>
                 </section>
             </div>
         </section>
@@ -338,6 +340,7 @@ include("functions.php") ?>
                   <h5><a href="http://fontawesome.io">Font Awesome</a></h5>
                   <h5><a href="https://jquery.com">jQuery</a></h5>
                   <h5><a href="https://github.com/pgooood/viewbox">Viewbox</a></h5>
+                  <h5><a href="https://github.com/spyrosoft/php-format-html-output">PHP format Html Output</a></h5>
                   <h5>2017 - Orazio Scicolone</h5>
               </section>
           </div>
