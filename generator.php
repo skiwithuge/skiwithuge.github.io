@@ -20,6 +20,17 @@ include("functions.php") ?>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script type="text/javascript" src="js/actions.js"></script>
   <script type="text/javascript" src="js/jquery.viewbox.js"></script>
+
+  <!-- Global Site Tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107267947-1"></script>
+  <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments)};
+        gtag('js', new Date());
+
+        gtag('config', 'UA-107267947-1');
+  </script>
+
 </head>
   <body>
   <?php generateNav() ?>
