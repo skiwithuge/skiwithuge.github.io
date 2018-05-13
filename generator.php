@@ -68,11 +68,12 @@ include("functions.php") ?>
                 printTimelineNode('2012',['Built other web experiments and an Online Newspaper Web Site']);
                 printTimelineNode('2013',['Bachelor\'s Degree Graduation','Start Master\'s Degree in Computer Engineering (Politecnico di Torino, Turin - Italy)']);
                 printTimelineNode('2016',['Masters\'s Degree Graduation']);
+                printTimelineNode('2017',['Coursera\'s Machine Learning Certificate','Droidcon Hackaton 2017','Working as a Bioinformatics Research Fellow at Polito (Politecnico di Torino, Turin - Italy)']);
                 ?>
               </div>
               <?php
-                printTimelineNode('2017',['Coursera\'s Machine Learning Certificate','Droidcon Hackaton 2017','Working as a Bioinformatics Research Fellow at Polito (Politecnico di Torino, Turin - Italy)']);
-              ?>
+                printTimelineNode('2018',['Working as SW Developer @ Amadeus - Sophia Antipolis'])
+                ?>
             </div>
           </div>
         </section>
@@ -95,16 +96,52 @@ include("functions.php") ?>
             <div class="docs-content column col-4 col-sm-12">
                 <div class="card">
                     <div class="card-header">
+                        <h4 class="card-title">Software Developer @ Amadeus</h4>
+                        <h6 class="card-subtitle">01/2018 - to date</h6>
+                    </div>
+                    <div class="card-body">
+                        <li>Develop of Rail Platform - <mark>C++ - Python</mark></li>
+                    </div>
+                </div>
+            </div>
+            <div class="docs-content column col-2 ">
+            </div>
+            <div class="docs-content column col-4 col-sm-12">
+                <div class="card">
+                    <div class="card-header">
                         <h4 class="card-title">Research Fellow @ Politecnico di Torino</h4>
-                        <h6 class="card-subtitle">02/2017 - to date</h6>
+                        <h6 class="card-subtitle">02/2017 - 12/2017</h6>
                     </div>
                     <div class="card-body">
                         <li>Build innovative advanced Bioinformatics tools
                             <ul>
-                                <li>Differential Analysis Tool - <mark>R</mark></li>
+                                <li><a href="http://www.scitepress.org/PublicationsDetail.aspx?ID=ZaT7yr1Kba8=&t=1">
+                                        GeneEx: Differential Analysis Tool</a> - <mark>R</mark></li>
                                 <li>Fastq2Tagq - <mark>C++</mark></li>
                             </ul>
                         </li>
+                    </div>
+                </div>
+            </div>
+            <div class="docs-content column col-1 ">
+            </div>
+        </section>
+        <section class="columns">
+            <div class="docs-content column col-1 ">
+            </div>
+            <div class="docs-content column col-4 col-sm-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h4 class="card-title">University Portal</h4>
+                        <h6 class="card-subtitle">08/2012 - 01/2013</h6>
+                    </div>
+                    <div class="card-image">
+                        <div class="video-responsive video-responsive-4-3">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/g20MERlDGPE" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        Unipablog was the first university portal of Università degli Studi di Palermo
                     </div>
                 </div>
             </div>
@@ -127,27 +164,6 @@ include("functions.php") ?>
                 </div>
             </div>
             <div class="docs-content column col-1 ">
-            </div>
-        </section>
-        <section class="columns">
-            <div class="docs-content column col-4 ">
-            </div>
-            <div class="docs-content column col-4 col-sm-12">
-                <div class="card">
-                    <div class="card-header">
-                        <h4 class="card-title">University Portal</h4>
-                        <h6 class="card-subtitle">08/2012 - 01/2013</h6>
-                    </div>
-                    <div class="card-image">
-                        <div class="video-responsive video-responsive-4-3">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/g20MERlDGPE" frameborder="0" allowfullscreen></iframe>
-                        </div>
-                    </div>
-                    <div class="card-body">
-                        Unipablog was the first university portal of Università degli Studi di Palermo
-                    </div>
-                </div>
-            <div class="docs-content column col-4 ">
             </div>
         </section>
     </section>
@@ -351,7 +367,6 @@ include("functions.php") ?>
                   <h5><a href="http://fontawesome.io">Font Awesome</a></h5>
                   <h5><a href="https://jquery.com">jQuery</a></h5>
                   <h5><a href="https://github.com/pgooood/viewbox">Viewbox</a></h5>
-                  <h5><a href="https://github.com/spyrosoft/php-format-html-output">PHP format Html Output</a></h5>
                   <h5>2017 - Orazio Scicolone</h5>
               </section>
           </div>
@@ -360,22 +375,13 @@ include("functions.php") ?>
   </body>
 </html>
 <?php
-/*$html = ob_get_clean();
-// Specify configuration
-$config = array(
-    'indent'         => true,
-    'output-xhtml'   => true,
-    'wrap'           => 200);
-
-// Tidy
-$tidy = new tidy;
-$tidy->parseString($html, $config, 'utf8');
-//$tidy->cleanRepair();
-file_put_contents('index.html', $tidy->html()->value);*/
+/*
+file_put_contents('index.html', $tidy->html()->value);
 include_once('format.php');
 $format = new Format;
 $formatted_html = $format->HTML(ob_get_contents());
 file_put_contents('index.html', $formatted_html);
 echo $formatted_html;
-//echo $tidy->html()->value;
+//echo $tidy->html()->value;*/
+file_put_contents('index.html', ob_get_contents());
 ?>
