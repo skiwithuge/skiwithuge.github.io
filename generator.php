@@ -38,6 +38,9 @@ include("functions.php") ?>
   <section class="section section-hero bg-gray">
     <section class="grid-hero container grid-960 text-center">
       <h2>Hi! I am</h2>
+      <figure class="avatar avatar-xxl">
+        <img src="img/avatar.jpg"/>
+      </figure>
       <h1>Orazio Scicolone</h1>
       <h2>Software Developer.</h2>
     </section>
