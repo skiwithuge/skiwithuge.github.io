@@ -75,7 +75,7 @@ include("functions.php") ?>
                 ?>
               </div>
               <?php
-                printTimelineNode('2018',['Working as SW Developer @ Amadeus - Sophia Antipolis'])
+                printTimelineNode('2018',['GeneEX article (Bioinformatics)','Working as SW Developer @ Amadeus - Sophia Antipolis','EnviMove published'])
                 ?>
             </div>
           </div>
@@ -370,7 +370,7 @@ include("functions.php") ?>
                   <h5><a href="http://fontawesome.io">Font Awesome</a></h5>
                   <h5><a href="https://jquery.com">jQuery</a></h5>
                   <h5><a href="https://github.com/pgooood/viewbox">Viewbox</a></h5>
-                  <h5>2017 - Orazio Scicolone</h5>
+                  <h5>2018 - Orazio Scicolone</h5>
               </section>
           </div>
       </section>
