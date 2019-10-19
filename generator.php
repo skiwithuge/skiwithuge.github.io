@@ -75,7 +75,8 @@ include("functions.php") ?>
                 ?>
               </div>
               <?php
-                printTimelineNode('2018',['GeneEX article (Bioinformatics)','Working as SW Developer @ Amadeus - Sophia Antipolis','EnviMove published'])
+                printTimelineNode('2018',['GeneEX article (Bioinformatics)','Working as SW Developer @ Amadeus - Sophia Antipolis','EnviMove published','Cosa Visitare Alexa Skill']);
+                printTimelineNode('2019',['Working as Android Developer @ Telemaque - Sophia Antipolis']);
                 ?>
             </div>
           </div>
@@ -94,13 +95,29 @@ include("functions.php") ?>
 
         <header class="text-center air"><h1 id="Work">Work</h1></header>
         <section class="columns">
+            <div class="docs-content column col-4 ">
+            </div>
+            <div class="docs-content column col-4 col-sm-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h4 class="card-title">Android Developer @ Telemaque</h4>
+                        <h6 class="card-subtitle">09/2019 - to date</h6>
+                    </div>
+                    <div class="card-body">
+                        <li>App dev - <mark>Android</mark></li>
+                    </div>
+                </div>
+            </div>
+            <div class="docs-content column col-4 ">
+        </section>
+        <section class="columns">
             <div class="docs-content column col-1 ">
             </div>
             <div class="docs-content column col-4 col-sm-12">
                 <div class="card">
                     <div class="card-header">
                         <h4 class="card-title">Software Developer @ Amadeus</h4>
-                        <h6 class="card-subtitle">01/2018 - to date</h6>
+                        <h6 class="card-subtitle">01/2018 - 08/2019</h6>
                     </div>
                     <div class="card-body">
                         <li>Develop of Rail Platform - <mark>C++ - Python</mark></li>

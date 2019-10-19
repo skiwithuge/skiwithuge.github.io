@@ -1,6 +1,21 @@
 <?xml version='1.0' standalone='yes'?>
 <projects>
     <project>
+        <name>CosaVisitare</name>
+        <startdate>12/2018</startdate>
+        <enddate>12/2018</enddate>
+        <languages>
+            <language>Python</language>
+            <language>Alexa Developer Kit</language>
+        </languages>
+        <photos></photos>
+        <description>
+            Alexa skill to find out what to do for a selected city
+        </description>
+    </project>
+
+
+    <project>
         <name>EnviMove</name>
         <startdate>02/2018</startdate>
         <enddate>05/2018</enddate>
