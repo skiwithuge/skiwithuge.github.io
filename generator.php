@@ -77,6 +77,7 @@ include("functions.php") ?>
               <?php
                 printTimelineNode('2018',['GeneEX article (Bioinformatics)','Working as SW Developer @ Amadeus - Sophia Antipolis','EnviMove published','Cosa Visitare Alexa Skill']);
                 printTimelineNode('2019',['Working as Android Developer @ Telemaque - Sophia Antipolis']);
+                printTimelineNode('2020',['BioSeqZip article (Bioinformatics)','Working as Fullstack Developer @ WildMoka - Sophia Antipolis']);
                 ?>
             </div>
           </div>
@@ -95,13 +96,26 @@ include("functions.php") ?>
 
         <header class="text-center air"><h1 id="Work">Work</h1></header>
         <section class="columns">
-            <div class="docs-content column col-4 ">
+            <div class="docs-content column col-1 ">
+            </div>
+            <div class="docs-content column col-4 col-sm-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h4 class="card-title">Fullstack developer @ WildMoka</h4>
+                        <h6 class="card-subtitle">02/2020 - to date</h6>
+                    </div>
+                    <div class="card-body">
+                        <li>Fullstack developer for the WildMoka Platform - <mark>Python - NodeJS - Js</mark></li>
+                    </div>
+                </div>
+            </div>
+            <div class="docs-content column col-2 ">
             </div>
             <div class="docs-content column col-4 col-sm-12">
                 <div class="card">
                     <div class="card-header">
                         <h4 class="card-title">Android Developer @ Telemaque</h4>
-                        <h6 class="card-subtitle">09/2019 - to date</h6>
+                        <h6 class="card-subtitle">09/2019 - 12/2019</h6>
                     </div>
                     <div class="card-body">
                         <li>App dev - <mark>Android</mark></li>
@@ -137,7 +151,7 @@ include("functions.php") ?>
                             <ul>
                                 <li><a href="http://www.scitepress.org/PublicationsDetail.aspx?ID=ZaT7yr1Kba8=&t=1">
                                         GeneEx: Differential Analysis Tool</a> - <mark>R</mark></li>
-                                <li>Fastq2Tagq - <mark>C++</mark></li>
+                                <li><a href="https://pubmed.ncbi.nlm.nih.gov/31999333/">BioSeqZip - A Collapser of NGS Redundant Reads<mark>C++</mark></li>
                             </ul>
                         </li>
                     </div>
@@ -209,7 +223,7 @@ include("functions.php") ?>
       </section>
     </section>
 
-    <section class="container grid-960">
+    <!--<section class="container grid-960">
 
         <header class="text-center air"><h1 id="Skills">Skills</h1></header>
         <section class="columns">
@@ -276,7 +290,7 @@ include("functions.php") ?>
                 </section>
             </div>
         </section>
-    </section>
+    </section>-->
 
     <section class="container grid-960">
 

@@ -14,7 +14,6 @@ function generateNav(){
             <a href="#Timeline" class="btn btn-link">Timeline</a>
             <a href="#Work" class="btn btn-link">Work</a>
             <a href="#Projects" class="btn btn-link">Projects</a>
-            <a href="#Skills" class="btn btn-link">Skills</a>
             <a href="#Interests" class="btn btn-link">Interests</a>
             <a href="#Contacts" class="btn btn-link">Contacts</a>
           </section>
