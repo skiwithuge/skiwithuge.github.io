@@ -295,7 +295,7 @@ params:
     btnName: "Send Email"
     formspree:
       enable: true
-      formId: "xldnjkon"  # placeholder — replace with real Formspree form ID or set enable:false
+      formId: "skiwithuge@gmail.com"  # Reverted to legacy ID
 
   footer:
     recentPosts:
