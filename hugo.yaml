@@ -295,7 +295,7 @@ params:
     btnName: "Send Email"
     formspree:
       enable: true
-      formId: "skiwithuge@gmail.com"  # Reverted to legacy ID
+      formId: "xeerqjyq"
 
   footer:
     recentPosts:
