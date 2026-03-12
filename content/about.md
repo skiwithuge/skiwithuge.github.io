@@ -41,8 +41,8 @@ Development of the Rail ticketing platform.
 - Collaborative Agile environment with international teams
 {{< /timelineItem >}}
 
-{{< timelineItem icon="briefcase" header="Bioinformatics Research Fellow @ Politecnico di Torino" badge="Feb 2017 - Dec 2017" >}}
-Conducted research in bioinformatics, producing two published tools:
+{{< timelineItem icon="briefcase" header="Bioinformatics Research Fellow" badge="Feb - Dec 2017" >}}
+Conducted research in bioinformatics at **Politecnico di Torino**, producing two published tools:
 - **[GeneEx](http://www.scitepress.org/PublicationsDetail.aspx?ID=ZaT7yr1Kba8=&t=1)** — Differential expression analysis tool — R
 - **[BioSeqZip](https://pubmed.ncbi.nlm.nih.gov/31999333/)** — NGS redundant reads collapser — C++
 - Coursera Machine Learning Certificate (2017)
@@ -55,22 +55,19 @@ Conducted research in bioinformatics, producing two published tools:
 ## Education
 
 {{< timeline >}}
-{{< timelineItem icon="graduation-cap" header="Master's Degree in Computer Engineering" badge="Politecnico di Torino | 2013 - 2016" >}}
+{{< timelineItem icon="graduation-cap" header="Master's Degree in Computer Engineering" badge="2013 - 2016" >}}
+**Politecnico di Torino**
+
 Graduated with a focus on software systems and algorithms. Thesis in Bioinformatics: pairwise alignment scoring analysis.
 {{< /timelineItem >}}
 
-{{< timelineItem icon="graduation-cap" header="Bachelor's Degree in Computer Engineering" badge="Università degli Studi di Palermo | 2009 - 2013" >}}
+{{< timelineItem icon="graduation-cap" header="Bachelor's Degree in Computer Engineering" badge="2009 - 2013" >}}
+**Università degli Studi di Palermo**
+
 Foundation in computer science, algorithms, databases, and software engineering. Early web and mobile application experiments during studies.
 {{< /timelineItem >}}
 {{< /timeline >}}
 
 ---
 
-## Projects
-
-* [**EnviMove**](https://github.com/skiwithuge): Unofficial, ad-free and open-source Android app for the Antibes Envibus public transport company. Includes real-time schedules and route planning. `[Android, Python]`
-* **CosaVisitare**: Alexa voice skill to discover what to visit and do in a selected Italian city. Built with Python and the Alexa Developer Kit. `[Python, Alexa SDK]`
-* **[BioSeqZip](https://pubmed.ncbi.nlm.nih.gov/31999333/)**: High-performance tool to collapse redundant reads in NGS datasets. Published in Bioinformatics (Oxford). Written in C++. `[C++]`
-* **[GeneEx](http://www.scitepress.org/PublicationsDetail.aspx?ID=ZaT7yr1Kba8=&t=1)**: Differential expression analysis tool for RNA-seq data, presented at SCITEPRESS conference. Written in R. `[R]`
-
-Feel free to browse more of my public projects on [GitHub](https://github.com/skiwithuge) or reach out to me via [LinkedIn](https://www.linkedin.com/in/orazio-scicolone-16235169/).
+Feel free to browse my [Projects](/projects/), take a look at my code on [GitHub](https://github.com/skiwithuge), or reach out on [LinkedIn](https://www.linkedin.com/in/orazio-scicolone-16235169/).
