@@ -1,0 +1,27 @@
+disabled = false
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "Orazio Scicolone"
+
+[params]
+  displayName = "EN"
+  isoCode = "en"
+  rtl = false
+  dateFormat = "2 January 2006"
+  logo = "img/avatar.jpg"
+  description = "Software Developer — Full-Stack, Android, Bioinformatics"
+  copyright = "Orazio Scicolone"
+
+[params.author]
+  name = "Orazio Scicolone"
+  image = "img/avatar.jpg"
+  imageQuality = 96
+  headline = "Software Developer"
+  bio = "Full-Stack developer with a background in Computer Engineering. Passionate about building web platforms, mobile apps, and open-source tools. Currently based in Sophia Antipolis, France."
+  links = [
+    { email = "mailto:orazio.scicolone@example.com" },
+    { github = "https://github.com/skiwithuge" },
+    { linkedin = "https://www.linkedin.com/in/orazio-scicolone-16235169/" },
+    { twitter = "https://twitter.com/Zio123" }
+  ]
