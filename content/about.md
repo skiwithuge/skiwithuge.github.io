@@ -1,7 +1,7 @@
 ---
 title: "About"
 date: 2024-01-01
-layout: "simple"
+showAuthorBottom: true
 ---
 
 I am a software developer with a Master's Degree in Computer Engineering from Politecnico di Torino (Italy).
@@ -18,7 +18,10 @@ I have a broad skill set — from low-level C++ and bioinformatics tools, to And
 
 ---
 
-## Experience
+## Background
+
+{{< accordion >}}
+{{< accordionItem header="Experience" md=false >}}
 
 {{< timeline >}}
 {{< timelineItem md=true icon="briefcase" header="Fullstack Developer @ WildMoka" badge="Feb 2020 - Present" >}}
@@ -49,10 +52,9 @@ Conducted research in bioinformatics at **Politecnico di Torino**, producing two
 - Participated in Droidcon Hackathon 2017
 {{< /timelineItem >}}
 {{< /timeline >}}
+{{< /accordionItem >}}
 
----
-
-## Education
+{{< accordionItem header="Education" md=false >}}
 
 {{< timeline >}}
 {{< timelineItem md=true icon="graduation-cap" header="Master's Degree in Computer Engineering" badge="2013 - 2016" >}}
@@ -67,6 +69,8 @@ Graduated with a focus on software systems and algorithms. Thesis in Bioinformat
 Foundation in computer science, algorithms, databases, and software engineering. Early web and mobile application experiments during studies.
 {{< /timelineItem >}}
 {{< /timeline >}}
+{{< /accordionItem >}}
+{{< /accordion >}}
 
 ---
 
